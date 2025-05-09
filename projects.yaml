@@ -6,8 +6,6 @@ categories:
     title: Resources
   - category: installation-media
     title: Installation Media
-  - category: channel-history
-    title: Channel History
   - category: deployment-tools
     title: Deployment Tools
   - category: virtualisation
@@ -21,55 +19,55 @@ categories:
   - category: programming-languages
     title: Programming Languages
   - category: programming-languages-arduino
-    title: Arduino (Programming Languages)
+    title: Arduino
     parent_category: programming-languages
   - category: programming-languages-clojure
-    title: Clojure (Programming Languages)
+    title: Clojure
     parent_category: programming-languages
   - category: programming-languages-crystal
-    title: Crystal (Programming Languages)
+    title: Crystal
     parent_category: programming-languages
   - category: programming-languages-elm
-    title: Elm (Programming Languages)
+    title: Elm
     parent_category: programming-languages
   - category: programming-languages-gleam
-    title: Gleam (Programming Languages)
+    title: Gleam
     parent_category: programming-languages
   - category: programming-languages-haskell
-    title: Haskell (Programming Languages)
+    title: Haskell
     parent_category: programming-languages
   - category: programming-languages-haxe
-    title: Haxe (Programming Languages)
+    title: Haxe
     parent_category: programming-languages
   - category: programming-languages-lean
-    title: Lean (Programming Languages)
+    title: Lean
     parent_category: programming-languages
   - category: programming-languages-node.js
-    title: Node.js (Programming Languages)
+    title: Node.js
     parent_category: programming-languages
   - category: programming-languages-ocaml
-    title: OCaml (Programming Languages)
+    title: OCaml
     parent_category: programming-languages
   - category: programming-languages-php
-    title: PHP (Programming Languages)
+    title: PHP
     parent_category: programming-languages
   - category: programming-languages-purescript
-    title: PureScript (Programming Languages)
+    title: PureScript
     parent_category: programming-languages
   - category: programming-languages-python
-    title: Python (Programming Languages)
+    title: Python
     parent_category: programming-languages
   - category: programming-languages-ruby
-    title: Ruby (Programming Languages)
+    title: Ruby
     parent_category: programming-languages
   - category: programming-languages-rust
-    title: Rust (Programming Languages)
+    title: Rust
     parent_category: programming-languages
   - category: programming-languages-scala
-    title: Scala (Programming Languages)
+    title: Scala
     parent_category: programming-languages
   - category: programming-languages-zig
-    title: Zig (Programming Languages)
+    title: Zig
     parent_category: programming-languages
   - category: nixos-modules
     title: NixOS Modules
