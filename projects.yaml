@@ -51,21 +51,27 @@ projects:
       An unofficial and opinionated NixOS & Flakes book for beginners.
     category: learning
 
+  - name: Nix Package Versions
+    github_id: lazamar/nix-package-versions
+    description: >
+      Find all versions of a package that were available in a channel and
+      the revision you can download it from.
+    category: discovery
   - name: nix-search-tv
     github_id: 3timeslazy/nix-search-tv
     description: >
       CLI fuzzy finder for packages and options from Nixpkgs, Home Manager,
       and more.
     category: discovery
-  - name: NüschtOS Search
-    github_id: NuschtOS/search
-    description: >
-      Simple and fast static-page NixOS option search.
-    category: discovery
   - name: Home Manager Option Search
     github_id: mipmip/home-manager-option-search
     description: >
       Search through all 2000+ Home Manager options and read how to use them.
+    category: discovery
+  - name: NüschtOS Search
+    github_id: NuschtOS/search
+    description: >
+      Simple and fast static-page NixOS option search.
     category: discovery
 
   - name: nixos-anywhere
@@ -370,6 +376,12 @@ projects:
     github_id: nix-community/lorri
     description: >
       A much better `nix-shell` for development that augments direnv.
+    category: development
+  - name: MCP-NixOS
+    github_id: utensils/mcp-nixos
+    description: >
+      An MCP server that provides AI assistants with accurate information about
+      NixOS packages, options, Home Manager, and nix-darwin configurations.
     category: development
   - name: namaka
     github_id: nix-community/namaka
@@ -693,11 +705,17 @@ projects:
     description: >
       A NeoVim distribution built with Nix modules and Nixpkgs.
     category: nixos-modules
+  - name: nvf
+    github_id: notashelf/nvf
+    description: >
+      Highly modular, configurable, extensible and easy to use Neovim
+      configuration in Nix.
+    category: nixos-modules
   - name: Self Host Blocks
     github_id: ibizaman/selfhostblocks
     description: >
       Modular server management based on NixOS modules and focused on best
-       practices.
+      practices.
     category: nixos-modules
   - name: Stylix
     github_id: danth/stylix
@@ -708,7 +726,7 @@ projects:
     github_id: fort-nix/nix-bitcoin
     description: >
       Modules and packages for Bitcoin nodes with higher-layer protocols
-       with an emphasis on security.
+      with an emphasis on security.
     category: nixos-modules
   - name: nix-mineral
     github_id: cynicsketch/nix-mineral
