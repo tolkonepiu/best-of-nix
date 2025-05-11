@@ -205,12 +205,6 @@ projects:
     description: >
       Scan Nix files for dead code.
     category: command-line-tools
-  - name: devenv
-    github_id: cachix/devenv
-    description: >
-      A Nix-based tool for creating developer shell environments quickly
-      and reproducibly.
-    category: command-line-tools
   - name: manix
     github_id: mlvzk/manix
     description: >
@@ -315,6 +309,12 @@ projects:
     github_id: jetpack-io/devbox
     description: >
       Instant, portable, and predictable development environments.
+    category: development
+  - name: devenv
+    github_id: cachix/devenv
+    description: >
+      A Nix-based tool for creating developer shell environments quickly
+      and reproducibly.
     category: development
   - name: devshell
     github_id: numtide/devshell
