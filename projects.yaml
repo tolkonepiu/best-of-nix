@@ -28,6 +28,16 @@ categories:
     title: Overlays
   - category: distributions
     title: Distributions
+labels:
+  - label: haskell
+    image: https://www.haskell.org/img/favicon.ico
+    description: Haskell Programming Language
+  - label: rust
+    image: https://www.rust-lang.org/static/images/favicon.ico
+    description: Rust Programming Language
+  - label: python
+    image: https://www.python.org/static/favicon.ico
+    description: Python Programming Language
 projects:
   - name: Nix Notes
     github_id: noteed/nix-notes
@@ -517,21 +527,25 @@ projects:
     description: >
       A `flake-parts` Nix module for Haskell development.
     category: programming-languages
+    labels: ["haskell"]
   - name: haskell.nix
     github_id: input-output-hk/haskell.nix
     description: >
       Alternative Haskell Infrastructure for Nixpkgs.
     category: programming-languages
+    labels: ["haskell"]
   - name: nix-haskell-mode
     github_id: matthewbauer/nix-haskell-mode
     description: >
       Automatic Haskell setup in Emacs.
     category: programming-languages
+    labels: ["haskell"]
   - name: nixkell
     github_id: pwm/nixkell
     description: >
       A Haskell project template using Nix and direnv.
     category: programming-languages
+    labels: ["haskell"]
   - name: haxix
     github_id: MadMcCrow/haxix
     description: >
@@ -612,6 +626,7 @@ projects:
     description: >
       Build Python packages directly from Poetry's `poetry.lock` files.
     category: programming-languages
+    labels: ["python"]
   - name: Bundix
     github_id: nix-community/bundix
     description: >
@@ -627,6 +642,7 @@ projects:
     description: >
       Granular caching, development shell, Nix & Rust integration.
     category: programming-languages
+    labels: ["rust"]
   - name: crane
     github_id: ipetkov/crane
     description: >
@@ -638,11 +654,13 @@ projects:
     description: >
       Rust toolchains and Rust analyzer nightly for nix.
     category: programming-languages
+    labels: ["rust"]
   - name: naersk
     github_id: nmattia/naersk
     description: >
       Build Rust packages directly from `Cargo.lock`. No conversion step needed.
     category: programming-languages
+    labels: ["rust"]
   - name: nix-cargo-integration
     github_id: yusdacra/nix-cargo-integration
     description: >
@@ -653,16 +671,19 @@ projects:
     description: >
       Mozilla's overlay with Rust toolchains and Firefox.
     category: programming-languages
+    labels: ["rust"]
   - name: rust-nix-templater
     github_id: yusdacra/rust-nix-templater
     description: >
       Generates Nix build and development files for Rust projects.
     category: programming-languages
+    labels: ["rust"]
   - name: rust-overlay
     github_id: oxalica/rust-overlay
     description: >
       Pure and reproducible nix overlay of binary distributed Rust toolchains.
     category: programming-languages
+    labels: ["rust"]
   - name: sbt-derivation
     github_id: zaninime/sbt-derivation
     description: >
