@@ -186,7 +186,7 @@ projects:
       using ssh.
     category: deployment-tools
   - name: terraform-nixos
-    github_id: tweag/terraform-nixos
+    github_id: nix-community/terraform-nixos
     description: >
       A set of Terraform modules designed to deploy NixOS.
     category: deployment-tools
@@ -234,7 +234,7 @@ projects:
       NixOS, and Home Manager.
     category: command-line-tools
   - name: nh
-    github_id: viperML/nh
+    github_id: nix-community/nh
     description: >
       Better output for `nix` `nixos-rebuild` and home-manger CLI using `nvd`
       and `nix-output-monitor`.
@@ -265,7 +265,7 @@ projects:
       Visualise which gc-roots to delete to free some space in your Nix store.
     category: command-line-tools
   - name: nix-index
-    github_id: bennofs/nix-index
+    github_id: nix-community/nix-index
     description: >
       Quickly locate Nix packages with specific files.
     category: command-line-tools
@@ -301,7 +301,7 @@ projects:
       Generate Nix fetcher calls from repository URLs.
     category: command-line-tools
   - name: statix
-    github_id: nerdypepper/statix
+    github_id: oppiliappan/statix
     description: >
       A linter/fixer to check for and fix antipatterns in Nix code.
     category: command-line-tools
@@ -328,7 +328,7 @@ projects:
       Generate a NixOS config from a Docker Compose project.
     category: development
   - name: Devbox
-    github_id: jetpack-io/devbox
+    github_id: jetify-com/devbox
     description: >
       Instant, portable, and predictable development environments.
     category: development
@@ -449,9 +449,9 @@ projects:
       project.
     category: development
   - name: pre-commit-hooks.nix
-    github_id: cachix/pre-commit-hooks.nix
+    github_id: cachix/git-hooks.nix
     description: >
-      Run linters/formatters at commit time and on your CI.
+      Seamless integration of git hooks with Nix.
     category: development
   - name: rnix-lsp
     github_id: nix-community/rnix-lsp
@@ -459,7 +459,7 @@ projects:
       A syntax-checking language server for Nix.
     category: development
   - name: robotnix
-    github_id: danielfullmer/robotnix
+    github_id: nix-community/robotnix
     description: >
       A declarative and reproducible build system for Android (AOSP) images.
     category: development
@@ -642,7 +642,7 @@ projects:
     category: programming-languages
     labels: ["ruby"]
   - name: ruby-nix
-    github_id: sagittaros/ruby-nix
+    github_id: inscapist/ruby-nix
     description: >
       Generates reproducible ruby/bundler app environment with Nix.
     category: programming-languages
@@ -667,7 +667,7 @@ projects:
     category: programming-languages
     labels: ["rust"]
   - name: naersk
-    github_id: nmattia/naersk
+    github_id: nix-community/naersk
     description: >
       Build Rust packages directly from `Cargo.lock`. No conversion step needed.
     category: programming-languages
@@ -719,7 +719,7 @@ projects:
       Manage your user configuration just like NixOS.
     category: nixos-modules
   - name: nix-darwin
-    github_id: LnL7/nix-darwin
+    github_id: nix-darwin/nix-darwin
     description: >
       Manage macOS configuration just like on NixOS.
     category: nixos-modules
@@ -780,12 +780,12 @@ projects:
     category: nixos-modules
 
   - name: NixOS Configuration Editor
-    github_id: vlinkz/nixos-conf-editor
+    github_id: snowfallorg/nixos-conf-editor
     description: >
       Graphical editor for NixOS configuration.
     category: nixos-configuration-editors
   - name: Nix Software Center
-    github_id: vlinkz/nix-software-center
+    github_id: snowfallorg/nix-software-center
     description: >
       Install and manage Nix packages.
     category: nixos-configuration-editors
