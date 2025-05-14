@@ -53,11 +53,6 @@ projects:
       A collection of short notes about Nix, each contributing to the same
       virtual machine image.
     category: learning
-  - name: Nix Architecture
-    github_id: markuskowa/nix-architecture
-    description: >
-      Architecture diagrams explaining Nix internals.
-    category: learning
   - name: Nix Shorts
     github_id: alper/nix-shorts
     description: >
@@ -87,11 +82,6 @@ projects:
     github_id: jonringer/nix-template
     description: >
       Collection of Nix templates for different types of projects.
-    category: learning
-  - name: wiltaylor/dotfiles
-    github_id: wiltaylor/dotfiles
-    description: >
-      NixOS configuration with flakes focusing on ease of use and organization.
     category: learning
   - name: Zero to Nix
     github_id: DeterminateSystems/zero-to-nix
@@ -370,11 +360,6 @@ projects:
     description: >
       Interactively browse the dependency graph of Nix derivations.
     category: command-line-tools
-  - name: nvd
-    github_id: nix-community/nvd
-    description: >
-      Fast and colorful diff tool that understands Nix and NixOS options.
-    category: command-line-tools
   - name: nurl
     github_id: nix-community/nurl
     description: >
@@ -506,11 +491,6 @@ projects:
       NIx Language server, an incremental analysis assistent for writing
       in Nix.
     category: development
-  - name: nix-devel
-    github_id: NixOS/nix-devel
-    description: >
-      Nix development tools and documentation.
-    category: development
   - name: nix-fast-build
     github_id: Mic92/nix-fast-build
     description: >
@@ -556,7 +536,7 @@ projects:
       properly.
     category: development
   - name: nixpkgs-update
-    github_id: ryantm/nixpkgs-update
+    github_id: nix-community/nixpkgs-update
     description: >
       Semi-automatic updating of nixpkgs packages.
     category: development
