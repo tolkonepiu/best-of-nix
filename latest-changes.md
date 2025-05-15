@@ -2,22 +2,5 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/DeterminateSystems/nix-installer-action">nix-installer-action</a></b> (🥇22 ·  ⭐ 200 · 📈) - The fast, friendly, and reliable GitHub Action to install Nix with Flakes. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code>
-- <b><a href="https://github.com/lenianiva/lean4-nix">lean4-nix</a></b> (🥈12 ·  ⭐ 42 · 📈) - Nix flake build for Lean 4, and `lake2nix`. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-
-## 📉 Trending Down
-
-_Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
-
-- <b><a href="https://github.com/DeterminateSystems/nix-installer">nix-installer</a></b> (🥇24 ·  ⭐ 2.8K · 📉) - Opinionated alternative to the official Nix install scripts. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code>
-
-## ➕ Added Projects
-
-_Projects that were recently added to this best-of list._
-
-- <b><a href="https://github.com/NixOS/nix-pills">nix-pills</a></b> (🥈15 ·  ⭐ 410 · ➕) - Guided introduction to Nix fundamentals from basic concepts to advanced use cases. <code><a href="http://bit.ly/3mSooSG">CC-BY-SA-4.0</a></code>
-- <b><a href="https://github.com/Gabriella439/nixos-in-production">nixos-in-production</a></b> (🥉10 ·  ⭐ 590 · 💤) - Source files for the book NixOS in Production, a practical guide for using NixOS in professional environments. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/tazjin/nix-1p">nix-1p</a></b> (🥉8 ·  ⭐ 950 · 💀) - A (more or less) one page introduction to Nix, the language. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/samdroid-apps/nix-articles">nix-articles</a></b> (🥉7 ·  ⭐ 170 · ➕) - Some articles about getting started with Nix programming & configuration. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/mikeroyal/NixOS-Guide">NixOS Guide</a></b> (🥉6 ·  ⭐ 940 · 💀) - NixOS Guide. Learn all about the immutable Nix Operating System and the declarative Nix Expression Language. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/thiagokokada/nix-alien">nix-alien</a></b> (🥉13 ·  ⭐ 630 · 📈) - Run unpatched binaries on Nix/NixOS easily. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 
