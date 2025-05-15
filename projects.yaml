@@ -61,7 +61,8 @@ projects:
   - name: Nix Starter Config
     github_id: Misterio77/nix-starter-configs
     description: >
-      A few simple Nix Flake templates for getting started with NixOS + home-manager.
+      A few simple Nix Flake templates for getting started with NixOS +
+      home-manager.
     category: learning
   - name: NixOS & Flakes Book
     github_id: ryan4yin/nixos-and-flakes-book
@@ -71,7 +72,8 @@ projects:
   - name: hlissner/dotfiles
     github_id: hlissner/dotfiles
     description: >
-      A comprehensive NixOS configuration example with detailed module structure.
+      A comprehensive NixOS configuration example with detailed module
+      structure.
     category: learning
   - name: NixOS Configuration Examples
     github_id: NobbZ/nixos-config
@@ -86,20 +88,49 @@ projects:
   - name: Zero to Nix
     github_id: DeterminateSystems/zero-to-nix
     description: >
-      A beginner's guide to Nix, providing step-by-step tutorials and explanations.
+      A beginner's guide to Nix, providing step-by-step tutorials and
+      explanations.
+    category: learning
+  - name: NixOS Guide
+    github_id: mikeroyal/NixOS-Guide
+    description: >
+      NixOS Guide. Learn all about the immutable Nix Operating System and the
+      declarative Nix Expression Language.
+    category: learning
+  - name: nix-1p
+    github_id: tazjin/nix-1p
+    description: >
+      A (more or less) one page introduction to Nix, the language.
+    category: learning
+  - name: nix-articles
+    github_id: samdroid-apps/nix-articles
+    description: >
+      Some articles about getting started with Nix programming & configuration.
+    category: learning
+  - name: nix-pills
+    github_id: NixOS/nix-pills
+    description: >
+      Guided introduction to Nix fundamentals from basic concepts to advanced
+      use cases.
+    category: learning
+  - name: nixos-in-production
+    github_id: Gabriella439/nixos-in-production
+    description: >
+      Source files for the book "NixOS in Production", a practical guide for
+      using NixOS in professional environments.
     category: learning
 
   - name: Nix Package Versions
     github_id: lazamar/nix-package-versions
     description: >
-      Find all versions of a package that were available in a channel and
-      the revision you can download it from.
+      Find all versions of a package that were available in a channel and the
+      revision you can download it from.
     category: discovery
   - name: nix-search-tv
     github_id: 3timeslazy/nix-search-tv
     description: >
-      CLI fuzzy finder for packages and options from Nixpkgs, Home Manager,
-      and more.
+      CLI fuzzy finder for packages and options from Nixpkgs, Home Manager, and
+      more.
     category: discovery
   - name: Home Manager Option Search
     github_id: mipmip/home-manager-option-search
@@ -141,16 +172,17 @@ projects:
   - name: nix-installer-scripts
     github_id: dnkmmr69420/nix-installer-scripts
     description: >
-      Runs the official installer but does some tweaking as well such as
-      adding fcontext for selinux and installing nix outside of the default profile
-      so you don't accidently uninstall it.
+      Runs the official installer but does some tweaking as well such as adding
+      fcontext for selinux and installing nix outside of the default profile so
+      you don't accidently uninstall it.
     category: installation-media
 
   - name: magic-nix-cache-action
     github_id: DeterminateSystems/magic-nix-cache-action
     description: >
-      Save 30-50%+ of CI time without any effort or cost. Use Magic Nix Cache,
-      a totally free and zero-configuration binary cache for Nix on GitHub Actions.
+      Save 30-50%+ of CI time without any effort or cost. Use Magic Nix Cache, a
+      totally free and zero-configuration binary cache for Nix on GitHub
+      Actions.
     category: github-actions
   - name: nix-installer-action
     github_id: DeterminateSystems/nix-installer-action
@@ -160,8 +192,8 @@ projects:
   - name: update-flake-lock
     github_id: DeterminateSystems/update-flake-lock
     description: >
-      This is a GitHub Action that updates the flake.lock file for your Nix flake
-      whenever it is run.
+      This is a GitHub Action that updates the flake.lock file for your Nix
+      flake whenever it is run.
     category: github-actions
 
   - name: bento
@@ -173,8 +205,7 @@ projects:
   - name: Colmena
     github_id: zhaofengli/colmena
     description: >
-      A simple, stateless NixOS deployment tool modeled after NixOps and
-      morph.
+      A simple, stateless NixOS deployment tool modeled after NixOps and morph.
     category: deployment-tools
   - name: comin
     github_id: nlewo/comin
@@ -204,8 +235,7 @@ projects:
   - name: Nixery
     github_id: tazjin/nixery
     description: >
-      A Docker-compatible container registry which builds images ad-hoc via
-      Nix.
+      A Docker-compatible container registry which builds images ad-hoc via Nix.
     category: deployment-tools
   - name: Nixinate
     github_id: MatthewCroughan/nixinate
@@ -216,8 +246,7 @@ projects:
   - name: NixOps
     github_id: NixOS/nixops
     description: >
-      The official Nix deployment tool, compatible with AWS, Hetzner, and
-      more.
+      The official Nix deployment tool, compatible with AWS, Hetzner, and more.
     category: deployment-tools
   - name: pushnix
     github_id: arnarg/pushnix
@@ -275,7 +304,8 @@ projects:
   - name: dwarffs
     github_id: edolstra/dwarffs
     description: >
-      A FUSE filesystem that allows tools like gdb to look up debug info files via HTTP.
+      A FUSE filesystem that allows tools like gdb to look up debug info files
+      via HTTP.
     category: command-line-tools
   - name: fast-flake-update
     github_id: Mic92/fast-flake-update
@@ -290,8 +320,8 @@ projects:
   - name: manix
     github_id: mlvzk/manix
     description: >
-      Find configuration options and function documentation for Nixpkgs,
-      NixOS, and Home Manager.
+      Find configuration options and function documentation for Nixpkgs, NixOS,
+      and Home Manager.
     category: command-line-tools
   - name: nh
     github_id: nix-community/nh
@@ -337,8 +367,8 @@ projects:
   - name: nix-init
     github_id: nix-community/nix-init
     description: >
-      Generate Nix packages from URLs with hash prefetching, dependency inference,
-      license detection, and more.
+      Generate Nix packages from URLs with hash prefetching, dependency
+      inference, license detection, and more.
     category: command-line-tools
   - name: nix-melt
     github_id: nix-community/nix-melt
@@ -373,7 +403,8 @@ projects:
   - name: treefmt
     github_id: numtide/treefmt
     description: >
-      One CLI to format the code tree, using formatters such as alejandra, prettier, etc.
+      One CLI to format the code tree, using formatters such as alejandra,
+      prettier, etc.
     category: command-line-tools
 
   - name: attic
@@ -411,8 +442,8 @@ projects:
   - name: devenv
     github_id: cachix/devenv
     description: >
-      A Nix-based tool for creating developer shell environments quickly
-      and reproducibly.
+      A Nix-based tool for creating developer shell environments quickly and
+      reproducibly.
     category: development
   - name: devshell
     github_id: numtide/devshell
@@ -423,8 +454,8 @@ projects:
   - name: dream2nix
     github_id: nix-community/dream2nix
     description: >
-      A framework for automatically converting packages from other build
-      systems to Nix.
+      A framework for automatically converting packages from other build systems
+      to Nix.
     category: development
   - name: flake.parts
     github_id: hercules-ci/flake-parts
@@ -488,8 +519,7 @@ projects:
   - name: nil
     github_id: oxalica/nil
     description: >
-      NIx Language server, an incremental analysis assistent for writing
-      in Nix.
+      NIx Language server, an incremental analysis assistent for writing in Nix.
     category: development
   - name: nix-fast-build
     github_id: Mic92/nix-fast-build
@@ -683,8 +713,8 @@ projects:
   - name: node2nix
     github_id: svanderburg/node2nix
     description: >
-      Generate Nix expression from a `package.json` (or `package-lock.json`)
-      (to be stored as files).
+      Generate Nix expression from a `package.json` (or `package-lock.json`) (to
+      be stored as files).
     category: programming-languages
   - name: npmlock2nix
     github_id: nix-community/npmlock2nix
@@ -710,14 +740,12 @@ projects:
   - name: composition-c4
     github_id: fossar/composition-c4
     description: >
-      Support for building composer packages from a `composer.lock` (using
-      IFD).
+      Support for building composer packages from a `composer.lock` (using IFD).
     category: programming-languages
   - name: nix-phps
     github_id: fossar/nix-phps
     description: >
-      Flake containing old and unmaintained PHP versions (intended for CI
-      use).
+      Flake containing old and unmaintained PHP versions (intended for CI use).
     category: programming-languages
     labels: ["php"]
   - name: nix-shell
@@ -734,8 +762,7 @@ projects:
   - name: purs-nix
     github_id: purs-nix/purs-nix
     description: >
-      CLI and library combo designed for managing PureScript projects using
-      Nix.
+      CLI and library combo designed for managing PureScript projects using Nix.
     category: programming-languages
   - name: poetry2nix
     github_id: nix-community/poetry2nix
@@ -866,8 +893,8 @@ projects:
   - name: nix-bitcoin
     github_id: fort-nix/nix-bitcoin
     description: >
-      Modules and packages for Bitcoin nodes with higher-layer protocols
-      with an emphasis on security.
+      Modules and packages for Bitcoin nodes with higher-layer protocols with an
+      emphasis on security.
     category: nixos-modules
   - name: nix-mineral
     github_id: cynicsketch/nix-mineral
@@ -953,8 +980,8 @@ projects:
   - name: NixNG
     github_id: nix-community/NixNG
     description: >
-      A GNU/Linux distribution similar to NixOS, defining difference is a
-      focus on containers and lightweightness.
+      A GNU/Linux distribution similar to NixOS, defining difference is a focus
+      on containers and lightweightness.
     category: distributions
   - name: nixos-avf
     github_id: nix-community/nixos-avf
@@ -964,8 +991,8 @@ projects:
   - name: not-os
     github_id: cleverca22/not-os
     description: >
-      An operating system generator that outputs a small, read-only squashfs
-      for a runit-based OS.
+      An operating system generator that outputs a small, read-only squashfs for
+      a runit-based OS.
     category: distributions
   - name: reupnix
     github_id: tuhhosg/reupnix
