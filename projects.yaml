@@ -489,11 +489,6 @@ projects:
     description: >
       Visualise which gc-roots to delete to free some space in your Nix store.
     category: command-line-tools
-  - name: nix-eval-jobs
-    github_id: nix-community/nix-eval-jobs
-    description: >
-      Evaluate Nix CI jobs locally without building them.
-    category: command-line-tools
   - name: nix-index
     github_id: nix-community/nix-index
     description: >
@@ -1161,12 +1156,6 @@ projects:
     description: >
       Manage your user configuration just like NixOS.
     category: nixos-modules
-  - name: impermanence
-    github_id: nix-community/impermanence
-    description: >
-      Modules to help you handle persistent state on systems with ephemeral root
-      storage.
-    category: nixos-modules
   - name: nix-colors
     github_id: Misterio77/nix-colors
     description: >
@@ -1337,12 +1326,6 @@ projects:
       nixpkgs aiming for exploiting tools, which may include non-official
       package or difficult to push to mainstream.
     category: overlays
-  - name: haskell.nix
-    github_id: input-output-hk/haskell.nix
-    description: >
-      Alternative Haskell Infrastructure for Nixpkgs.
-    category: overlays
-    labels: [haskell]
   - name: neovim-nightly-overlay
     github_id: nix-community/neovim-nightly-overlay
     description: >
