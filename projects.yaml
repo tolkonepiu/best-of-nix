@@ -35,6 +35,8 @@ categories:
     title: NixOS Configuration Editors
   - category: overlays
     title: Overlays
+  - category: security
+    title: Security
   - category: distributions
     title: Distributions
 labels:
@@ -82,6 +84,12 @@ projects:
       A comprehensive NixOS configuration example with detailed module
       structure.
     category: learning
+  - name: kclejeune/system
+    github_id: kclejeune/system
+    description: >
+      Declarative system configurations using nixOS, nix-darwin, and
+      home-manager.
+    category: learning
   - name: NixOS Configuration Examples
     github_id: NobbZ/nixos-config
     description: >
@@ -109,6 +117,21 @@ projects:
     description: >
       A (more or less) one page introduction to Nix, the language.
     category: learning
+  - name: donovanglover/nix-config
+    github_id: donovanglover/nix-config
+    description: >
+      NixOS configuration with Nix Flakes, Home Manager, Stylix, and Hyprland.
+    category: learning
+  - name: nix.dev
+    github_id: NixOS/nix.dev
+    description: >
+      Official documentation for getting things done with Nix.
+    category: learning
+  - name: awesome-nix
+    github_id: nix-community/awesome-nix
+    description: >
+      A curated list of the best resources in the Nix community.
+    category: learning
   - name: nix-articles
     github_id: samdroid-apps/nix-articles
     description: >
@@ -120,11 +143,21 @@ projects:
       Guided introduction to Nix fundamentals from basic concepts to advanced
       use cases.
     category: learning
+  - name: nixbuntu-samples
+    github_id: lheckemann/nixbuntu-samples
+    description: >
+      Sample configurations for NixOS.
+    category: learning
   - name: nixos-in-production
     github_id: Gabriella439/nixos-in-production
     description: >
       Source files for the book "NixOS in Production", a practical guide for
       using NixOS in professional environments.
+    category: learning
+  - name: RFCs
+    github_id: NixOS/rfcs
+    description: >
+      The Nix community RFCs.
     category: learning
 
   - name: Nix Package Versions
@@ -143,6 +176,21 @@ projects:
     github_id: mipmip/home-manager-option-search
     description: >
       Search through all 2000+ Home Manager options and read how to use them.
+    category: discovery
+  - name: noogle
+    github_id: nix-community/noogle
+    description: >
+      Nix function exploring.
+    category: discovery
+  - name: NixOS Search
+    github_id: NixOS/nixos-search
+    description: >
+      Search NixOS packages and options.
+    category: discovery
+  - name: nixpkgs
+    github_id: NixOS/nixpkgs
+    description: >
+      Nix Packages collection & NixOS.
     category: discovery
   - name: NüschtOS Search
     github_id: NuschtOS/search
@@ -183,13 +231,39 @@ projects:
       fcontext for selinux and installing nix outside of the default profile so
       you don't accidently uninstall it.
     category: installation-media
+  - name: nix-netboot-serve
+    github_id: DeterminateSystems/nix-netboot-serve
+    description: >
+      Make any NixOS system netbootable with 10s cycle times.
+    category: installation-media
+  - name: nix-portable
+    github_id: DavHau/nix-portable
+    description: >
+      Nix - Static, Permissionless, Installation-free, Pre-configured.
+    category: installation-media
+  - name: nixos-images
+    github_id: nix-community/nixos-images
+    description: >
+      Automatically build (netboot) images for NixOS.
+    category: installation-media
 
+  - name: install-nix-action
+    github_id: cachix/install-nix-action
+    description: >
+      Installs Nix on GitHub Actions for the supported platforms: Linux and
+      macOS.
+    category: github-actions
   - name: magic-nix-cache-action
     github_id: DeterminateSystems/magic-nix-cache-action
     description: >
       Save 30-50%+ of CI time without any effort or cost. Use Magic Nix Cache, a
       totally free and zero-configuration binary cache for Nix on GitHub
       Actions.
+    category: github-actions
+  - name: flake-checker-action
+    github_id: DeterminateSystems/flake-checker-action
+    description: >
+      A GitHub Action that performs health checks for your Nix flake.lock files.
     category: github-actions
   - name: nix-installer-action
     github_id: DeterminateSystems/nix-installer-action
@@ -214,10 +288,20 @@ projects:
     description: >
       A simple, stateless NixOS deployment tool modeled after NixOps and morph.
     category: deployment-tools
+  - name: clonix
+    github_id: tulilirockz/clonix
+    description: >
+      Declaratively manage rsync deployments in NixOS/Home-manager.
+    category: deployment-tools
   - name: comin
     github_id: nlewo/comin
     description: >
       A deployment tool to continuously pull from Git repositories.
+    category: deployment-tools
+  - name: krops
+    github_id: krebs/krops
+    description: >
+      A tool for deploying NixOS systems from Nix expressions.
     category: deployment-tools
   - name: deploy-rs
     github_id: serokell/deploy-rs
@@ -272,6 +356,16 @@ projects:
       Use Nix and the NixOS module system to write your Terraform code.
     category: deployment-tools
 
+  - name: NixVirt
+    github_id: AshleyYakeley/NixVirt
+    description: >
+      LibVirt domain management for Nix.
+    category: virtualisation
+  - name: nix-snapshotter
+    github_id: pdtpartners/nix-snapshotter
+    description: >
+      Brings native understanding of Nix packages to containerd.
+    category: virtualisation
   - name: nixos-shell
     github_id: Mic92/nixos-shell
     description: >
@@ -293,6 +387,11 @@ projects:
     description: >
       An opinionated Nix code formatter optimized for speed and consistency.
     category: command-line-tools
+  - name: attr-cmd
+    github_id: fricklerhandwerk/attr-cmd
+    description: >
+      Build shell commands from Nix attribute sets.
+    category: development
   - name: comma
     github_id: nix-community/comma
     description: >
@@ -330,11 +429,20 @@ projects:
       Find configuration options and function documentation for Nixpkgs, NixOS,
       and Home Manager.
     category: command-line-tools
+  - name: grep-nixos-cache
+    github_id: delroth/grep-nixos-cache
+    description: >
+      Finds strings in a large list of cached NixOS store paths.
+    category: command-line-tools
   - name: nh
     github_id: nix-community/nh
     description: >
-      Better output for `nix` `nixos-rebuild` and home-manger CLI using `nvd`
-      and `nix-output-monitor`.
+      Yet another Nix CLI helper.
+    category: command-line-tools
+  - name: nix-eval-jobs
+    github_id: nix-community/nix-eval-jobs
+    description: >
+      Parallel nix evaluator with a streamable json output.
     category: command-line-tools
   - name: nixfmt
     github_id: NixOS/nixfmt
@@ -346,15 +454,35 @@ projects:
     description: >
       An opinionated linter for Nixpkgs package expressions.
     category: command-line-tools
+  - name: nixpkgs-fmt
+    github_id: nix-community/nixpkgs-fmt
+    description: >
+      Nix code formatter for nixpkgs.
+    category: command-line-tools
   - name: nix-alien
     github_id: thiagokokada/nix-alien
     description: >
       Run unpatched binaries on Nix/NixOS easily.
     category: command-line-tools
+  - name: nix-appimage
+    github_id: ralismark/nix-appimage
+    description: >
+      Convert a nixos derivation into a self-contained binary.
+    category: command-line-tools
+  - name: nix-bundle
+    github_id: nix-community/nix-bundle
+    description: >
+      Bundle Nix derivations to run anywhere!
+    category: command-line-tools
   - name: nix-diff
     github_id: Gabriella439/nix-diff
     description: >
       A tool to explain why two Nix derivations differ.
+    category: command-line-tools
+  - name: nix-dissector
+    github_id: picnoir/nix-dissector
+    description: >
+      Wireshark dissector for the Nix daemon protocol.
     category: command-line-tools
   - name: nix-du
     github_id: symphorien/nix-du
@@ -370,6 +498,11 @@ projects:
     github_id: nix-community/nix-index
     description: >
       Quickly locate Nix packages with specific files.
+    category: command-line-tools
+  - name: nix-index-database
+    github_id: nix-community/nix-index-database
+    description: >
+      Weekly updated nix-index database.
     category: command-line-tools
   - name: nix-init
     github_id: nix-community/nix-init
@@ -392,15 +525,40 @@ projects:
     description: >
       A universal tool for updating source checksums.
     category: command-line-tools
+  - name: nix-remarkable
+    github_id: pl-semiotics/nix-remarkable
+    description: >
+      Nix expressions for tools for the reMarkable tablet.
+    category: command-line-tools
   - name: nix-tree
     github_id: utdemir/nix-tree
     description: >
       Interactively browse the dependency graph of Nix derivations.
     category: command-line-tools
+  - name: nix-wallpaper
+    github_id: nix-community/nixos-cli
+    description: >
+      A unified NixOS tooling replacement for nixos-* utilities.
+    category: command-line-tools
   - name: nurl
     github_id: nix-community/nurl
     description: >
       Generate Nix fetcher calls from repository URLs.
+    category: command-line-tools
+  - name: pinix
+    github_id: remi-dupre/pinix
+    description: >
+      Progress In Nix - Pacman inspired frontend for Nix.
+    category: command-line-tools
+  - name: patsh
+    github_id: nix-community/patsh
+    description: >
+      A command-line tool for patching shell scripts inspired by resholve.
+    category: command-line-tools
+  - name: r13y.com
+    github_id: grahamc/r13y.com
+    description: >
+      NixOS Reproducibility Checker.
     category: command-line-tools
   - name: statix
     github_id: oppiliappan/statix
@@ -413,11 +571,26 @@ projects:
       One CLI to format the code tree, using formatters such as alejandra,
       prettier, etc.
     category: command-line-tools
+  - name: utf8
+    github_id: figsoda/utf8
+    description: >
+      UTF-8 support for Nix.
+    category: command-line-tools
 
   - name: attic
     github_id: zhaofengli/attic
     description: >
       Multi-tenant Nix Binary Cache.
+    category: development
+  - name: buildNodeModules
+    github_id: adisbladis/buildNodeModules
+    description: >
+      An experiment in improving node packaging for nix. Dead simple.
+    category: development
+  - name: cachix
+    github_id: cachix/cachix
+    description: >
+      Command line client for Nix binary cache hosting.
     category: development
   - name: Arion
     github_id: hercules-ci/arion
@@ -496,11 +669,21 @@ projects:
     description: >
       The most feature-complete and easy-to-use `.gitignore` integration.
     category: development
+  - name: harmonia
+    github_id: nix-community/harmonia
+    description: >
+      Nix binary cache implemented in Rust.
+    category: development
   - name: haumea
     github_id: nix-community/haumea
     description: >
       Filesystem-based module system for the Nix language similar to traditional
       programming languages, with support for file hierarchy and visibility.
+    category: development
+  - name: jupyenv
+    github_id: tweag/jupyenv
+    description: >
+      Declarative and reproducible Jupyter environments - powered by Nix.
     category: development
   - name: jordanisaacs/kernel-module-flake
     github_id: jordanisaacs/kernel-module-flake
@@ -534,6 +717,11 @@ projects:
       Combine the power of nix-eval-jobs with nix-output-monitor to speed-up
       your evaluation and building process.
     category: development
+  - name: nixcrpkgs
+    github_id: pololu/nixcrpkgs
+    description: >
+      Tools for cross-compiling standalone applications using Nix.
+    category: development
   - name: nixseparatedebuginfod
     github_id: symphorien/nixseparatedebuginfod
     description: >
@@ -551,20 +739,55 @@ projects:
       A fast loader and flake-compliant configuration for the direnv environment
       auto-loader.
     category: development
+  - name: nix-filter
+    github_id: numtide/nix-filter
+    description: >
+      A small self-contained source filtering lib.
+    category: development
   - name: nix-health
     github_id: juspay/nix-health
     description: >
       A program to check the health of your Nix install.
+    category: development
+  - name: nix-ld
+    github_id: nix-community/nix-ld
+    description: >
+      Run unpatched dynamic binaries on NixOS.
     category: development
   - name: nix-update
     github_id: Mic92/nix-update
     description: >
       Update versions/source hashes of nix packages.
     category: development
+  - name: nix-serve-ng
+    github_id: aristanetworks/nix-serve-ng
+    description: >
+      A drop-in replacement for nix-serve that is faster and more reliable.
+    category: development
+  - name: nixt
+    github_id: nix-community/nixt
+    description: >
+      Simple unit-testing for Nix.
+    category: development
+  - name: nix-super
+    github_id: privatevoid-net/nix-super
+    description: >
+      A fork of the Nix package manager.
+    category: development
   - name: nixd
     github_id: nix-community/nixd
     description: >
       Nix language server, based on Nix libraries.
+    category: development
+  - name: nixdoc
+    github_id: nix-community/nixdoc
+    description: >
+      Tool to generate documentation for Nix library functions.
+    category: development
+  - name: nixos-vscode-server
+    github_id: nix-community/nixos-vscode-server
+    description: >
+      Visual Studio Code Server support in NixOS.
     category: development
   - name: nixpkgs-review
     github_id: Mic92/nixpkgs-review
@@ -583,15 +806,30 @@ projects:
       A simple tool for handling different types of dependencies in a Nix
       project.
     category: development
+  - name: peerix
+    github_id: cid-chan/peerix
+    description: >
+      Peer2Peer Nix-Binary-Cache.
+    category: development
   - name: pre-commit-hooks.nix
     github_id: cachix/git-hooks.nix
     description: >
       Seamless integration of git hooks with Nix.
     category: development
+  - name: rand-nix
+    github_id: figsoda/rand-nix
+    description: >
+      Eval-time random number generator for Nix without IFD.
+    category: development
   - name: rnix-lsp
     github_id: nix-community/rnix-lsp
     description: >
       A syntax-checking language server for Nix.
+    category: development
+  - name: rnix-parser
+    github_id: nix-community/rnix-parser
+    description: >
+      A Nix parser written in Rust.
     category: development
   - name: robotnix
     github_id: nix-community/robotnix
@@ -609,10 +847,30 @@ projects:
       A library that makes it easy to manage your Nix flake by imposing an
       opinionated file structure.
     category: development
+  - name: sublime-nix
+    github_id: wmertens/sublime-nix
+    description: >
+      Nix syntax highlighting for Sublime Text
+    category: development
   - name: templates
     github_id: nix-community/templates
     description: >
       Project templates for many languages using Nix flakes.
+    category: development
+  - name: treefmt-nix
+    github_id: numtide/treefmt-nix
+    description: >
+      treefmt nix configuration.
+    category: development
+  - name: vscode-nix-ide
+    github_id: nix-community/vscode-nix-ide
+    description: >
+      Nix language support for VSCode editor.
+    category: development
+  - name: zephyr-nix
+    github_id: adisbladis/zephyr-nix
+    description: >
+      Develop Zephyr projects using Nix.
     category: development
 
   - name: Makes
@@ -626,11 +884,22 @@ projects:
     description: >
       Kubernetes GitOps with Nix and Argo CD.
     category: devops
+  - name: process-compose-flake
+    github_id: Platonic-Systems/process-compose-flake
+    description: >
+      A flake-parts module to spin up processes for development by leveraging
+      process-compose.
+    category: devops
   - name: Standard
     github_id: divnix/std
     description: >
       An opinionated Nix Flakes framework to keep Nix code in large projects
       organized, accompanied by a friendly CLI/TUI optized for DevOps scenarios.
+    category: devops
+  - name: typhon
+    github_id: typhon-ci/typhon
+    description: >
+      Nix-based continuous integration.
     category: devops
 
   - name: nijs
@@ -642,6 +911,11 @@ projects:
     github_id: boredom101/nixduino
     description: >
       Nix-based tool to help build Arduino sketches.
+    category: programming-languages
+  - name: android-nixpkgs
+    github_id: tadfisher/android-nixpkgs
+    description: >
+      Nix-packaged Android SDK.
     category: programming-languages
   - name: clj-nix
     github_id: jlesquembre/clj-nix
@@ -717,6 +991,11 @@ projects:
     description: >
       Support for building npm packages in Nix with a lightweight npm registry.
     category: programming-languages
+  - name: nickel
+    github_id: tweag/nickel
+    description: >
+      Better configuration for less.
+    category: programming-languages
   - name: node2nix
     github_id: svanderburg/node2nix
     description: >
@@ -771,6 +1050,12 @@ projects:
     description: >
       CLI and library combo designed for managing PureScript projects using Nix.
     category: programming-languages
+  - name: pyproject.nix
+    github_id: pyproject-nix/pyproject.nix
+    description: >
+      A collection of Nix utilities to work with Python projects.
+    category: programming-languages
+    labels: ["python"]
   - name: poetry2nix
     github_id: nix-community/poetry2nix
     description: >
@@ -808,6 +1093,11 @@ projects:
       Rust toolchains and Rust analyzer nightly for nix.
     category: programming-languages
     labels: ["rust"]
+  - name: gradle2nix
+    github_id: tadfisher/gradle2nix
+    description: >
+      Generate Nix expressions which build Gradle-based projects.
+    category: programming-languages
   - name: naersk
     github_id: nix-community/naersk
     description: >
@@ -838,10 +1128,21 @@ projects:
       Pure and reproducible nix overlay of binary distributed Rust toolchains.
     category: programming-languages
     labels: ["rust"]
+  - name: static-haskell-nix
+    github_id: nh2/static-haskell-nix
+    description: >
+      Easily build most Haskell programs into fully static Linux executables.
+    category: programming-languages
+    labels: ["haskell"]
   - name: sbt-derivation
     github_id: zaninime/sbt-derivation
     description: >
       mkDerivation for sbt, similar to buildGoModule.
+    category: programming-languages
+  - name: tex2nix
+    github_id: rgri/tex2nix
+    description: >
+      Generate texlive nix expressions for documents.
     category: programming-languages
   - name: zon2nix
     github_id: nix-community/zon2nix
@@ -860,20 +1161,72 @@ projects:
     description: >
       Manage your user configuration just like NixOS.
     category: nixos-modules
+  - name: impermanence
+    github_id: nix-community/impermanence
+    description: >
+      Modules to help you handle persistent state on systems with ephemeral root
+      storage.
+    category: nixos-modules
+  - name: nix-colors
+    github_id: Misterio77/nix-colors
+    description: >
+      Modules and schemes to make theming with Nix awesome.
+    category: nixos-modules
   - name: nix-darwin
     github_id: nix-darwin/nix-darwin
     description: >
       Manage macOS configuration just like on NixOS.
+    category: nixos-modules
+  - name: nix-minecraft
+    github_id: Infinidoge/nix-minecraft
+    description: >
+      An attempt to better support Minecraft-related content for the Nix
+      ecosystem.
+    category: nixos-modules
+  - name: nixGL
+    github_id: nix-community/nixGL
+    description: >
+      A wrapper tool for nix OpenGL application.
+    category: nixos-modules
+  - name: NixOS-DNS
+    github_id: Janik-Haag/NixOS-DNS
+    description: >
+      Manage your DNS zones with NixOS.
     category: nixos-modules
   - name: NixOS-WSL
     github_id: nix-community/NixOS-WSL
     description: >
       Modules for running NixOS on the Windows Subsystem for Linux.
     category: nixos-modules
+  - name: Jovian-NixOS
+    github_id: Jovian-Experiments/Jovian-NixOS
+    description: >
+      NixOS modules for gaming with Steam Deck compatibility.
+    category: nixos-modules
+  - name: lanzaboote
+    github_id: nix-community/lanzaboote
+    description: >
+      Secure Boot for NixOS.
+    category: nixos-modules
+  - name: mineflake
+    github_id: nix-community/mineflake
+    description: >
+      Declarative Minecraft server in NixOS.
+    category: nixos-modules
   - name: musnix
     github_id: musnix/musnix
     description: >
       Do real-time audio work in NixOS.
+    category: nixos-modules
+  - name: nether
+    github_id: krebs/nether
+    description: >
+      zerotier network configuration as a NixOS flake.
+    category: nixos-modules
+  - name: nix-steam-servers
+    github_id: scottbot95/nix-steam-servers
+    description: >
+      Nix packages and NixOS modules for managing Steam game servers.
     category: nixos-modules
   - name: NixVim
     github_id: nix-community/nixvim
@@ -886,11 +1239,26 @@ projects:
       Highly modular, configurable, extensible and easy to use Neovim
       configuration in Nix.
     category: nixos-modules
+  - name: ollama-flake
+    github_id: abysssol/ollama-flake
+    description: >
+      A nix flake for Ollama.
+    category: nixos-modules
   - name: Self Host Blocks
     github_id: ibizaman/selfhostblocks
     description: >
       Modular server management based on NixOS modules and focused on best
       practices.
+    category: nixos-modules
+  - name: srvos
+    github_id: nix-community/srvos
+    description: >
+      NixOS profiles for servers.
+    category: nixos-modules
+  - name: systemd-nix
+    github_id: serokell/systemd-nix
+    description: >
+      Generate systemd units from NixOS-style descriptions.
     category: nixos-modules
   - name: Stylix
     github_id: danth/stylix
@@ -913,6 +1281,16 @@ projects:
     description: >
       Generate infrastructure and network diagrams directly from your NixOS
       configuration.
+    category: nixos-modules
+  - name: nix-wallpaper
+    github_id: lunik1/nix-wallpaper
+    description: >
+      A configurable wallpaper for nix systems.
+    category: nixos-modules
+  - name: nixiosk
+    github_id: matthewbauer/nixiosk
+    description: >
+      Declarative Kiosk systems built with NixOS.
     category: nixos-modules
   - name: impermanence
     github_id: nix-community/impermanence
@@ -937,6 +1315,11 @@ projects:
     description: >
       High Performance Computing package sets.
     category: overlays
+  - name: base16.nix
+    github_id: SenchoPens/base16.nix
+    description: >
+      Theme applications with your favourite base16 colorschemes in Nix.
+    category: overlays
   - name: chaotic-nyx
     github_id: chaotic-cx/nyx
     description: >
@@ -948,26 +1331,85 @@ projects:
     description: >
       Bleeding edge Emacs overlay.
     category: overlays
+  - name: hackpkgs
+    github_id: applePrincess/hackpkgs
+    description: >
+      nixpkgs aiming for exploiting tools, which may include non-official
+      package or difficult to push to mainstream.
+    category: overlays
+  - name: haskell.nix
+    github_id: input-output-hk/haskell.nix
+    description: >
+      Alternative Haskell Infrastructure for Nixpkgs.
+    category: overlays
+    labels: [haskell]
+  - name: neovim-nightly-overlay
+    github_id: nix-community/neovim-nightly-overlay
+    description: >
+      Bleeding edge Neovim overlay.
+    category: overlays
+  - name: ngipkgs
+    github_id: ngi-nix/ngipkgs
+    description: >
+      Nix packages and services for projects supported through the NGI program.
+    category: overlays
+  - name: nixpkgs-cuda-ci
+    github_id: SomeoneSerge/nixpkgs-cuda-ci
+    description: >
+      Building and caching nixpkgs with cudaSupport=true.
+    category: overlays
   - name: nixpkgs-firefox-darwin
     github_id: bandithedoge/nixpkgs-firefox-darwin
     description: >
       Automatically updated Firefox binary packages for macOS.
+    category: overlays
+  - name: nixpkgs-mozilla
+    github_id: mozilla/nixpkgs-mozilla
+    description: >
+      Mozilla overlay for Nixpkgs.
     category: overlays
   - name: nixpkgs-wayland
     github_id: nix-community/nixpkgs-wayland
     description: >
       Bleeding-edge Wayland packages.
     category: overlays
+  - name: NixNeovimPlugins
+    github_id: NixNeovim/NixNeovimPlugins
+    description: >
+      Makes all neovim plugins available in nix (Auto updated).
+    category: overlays
   - name: NUR
     github_id: nix-community/NUR
     description: >
       Nix User Repositories.
+    category: overlays
+  - name: redoxpkgs
+    github_id: nix-community/redoxpkgs
+    description: >
+      Cross-compile to Redox using Nix.
     category: overlays
   - name: System Manager
     github_id: numtide/system-manager
     description: >
       A non-NixOS Linux system configuration tool built on Nix.
     category: overlays
+
+  - name: agenix
+    github_id: ryantm/agenix
+    description: >
+      age-encrypted secrets for NixOS and Home manager
+    category: security
+  - name: nix-security-tracker
+    github_id: Nix-Security-WG/nix-security-tracker
+    description: >
+      Web service for managing information on vulnerabilities in software
+      distributed through Nixpkgs.
+    category: security
+  - name: trustix
+    github_id: nix-community/trustix
+    description: >
+      Distributed trust and reproducibility tracking for binary caches.
+    category: security
 
   - name: Athena
     github_id: Athena-OS/athena
@@ -982,7 +1424,7 @@ projects:
   - name: nixbsd
     github_id: nixos-bsd/nixbsd
     description: >
-      A NixOS fork with a FreeBSD kernel.
+      An unofficial NixOS fork with a FreeBSD kernel.
     category: distributions
   - name: NixNG
     github_id: nix-community/NixNG
@@ -998,8 +1440,8 @@ projects:
   - name: not-os
     github_id: cleverca22/not-os
     description: >
-      An operating system generator that outputs a small, read-only squashfs for
-      a runit-based OS.
+      An operating system generator, based on NixOS, that outputs a small
+      read-only squashfs for a runit-based operating system.
     category: distributions
   - name: reupnix
     github_id: tuhhosg/reupnix
