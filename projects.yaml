@@ -623,7 +623,7 @@ projects:
       Uses the Nix package manager to visualize the dependencies of a given
       package.
     category: command-line-tools
-  - name: nix-wallpaper
+  - name: nixos-cli
     github_id: nix-community/nixos-cli
     description: >
       A unified NixOS tooling replacement for nixos-* utilities.
@@ -936,7 +936,7 @@ projects:
     description: >
       Peer2Peer Nix-Binary-Cache.
     category: development
-  - name: pre-commit-hooks.nix
+  - name: git-hooks.nix
     github_id: cachix/git-hooks.nix
     description: >
       Seamless integration of git hooks with Nix.
@@ -1278,12 +1278,6 @@ projects:
       Library to easily and effortlessly integrate Cargo projects with Nix.
     category: programming-languages
     labels: ["rust"]
-  - name: nixpkgs-mozilla
-    github_id: mozilla/nixpkgs-mozilla
-    description: >
-      Mozilla's overlay with Rust toolchains and Firefox.
-    category: programming-languages
-    labels: ["rust"]
   - name: rust-nix-templater
     github_id: yusdacra/rust-nix-templater
     description: >
@@ -1428,7 +1422,7 @@ projects:
       Generate systemd units from NixOS-style descriptions.
     category: nixos-modules
   - name: Stylix
-    github_id: danth/stylix
+    github_id: nix-community/stylix
     description: >
       System-wide colorscheming and typography for NixOS.
     category: nixos-modules
@@ -1486,11 +1480,6 @@ projects:
     github_id: freuk/awesome-nix-hpc
     description: >
       High Performance Computing package sets.
-    category: overlays
-  - name: base16.nix
-    github_id: SenchoPens/base16.nix
-    description: >
-      Theme applications with your favourite base16 colorschemes in Nix.
     category: overlays
   - name: chaotic-nyx
     github_id: chaotic-cx/nyx
