@@ -577,20 +577,10 @@ projects:
     description: >
       Finds strings in a large list of cached NixOS store paths.
     category: command-line-tools
-  - name: grep-nixos-cache
-    github_id: delroth/grep-nixos-cache
-    description: >
-      Finds strings in a large list of cached NixOS store paths.
-    category: command-line-tools
   - name: hydra-check
     github_id: nix-community/hydra-check
     description: >
       Check hydra for the build status of a package.
-    category: command-line-tools
-  - name: hydra-cli
-    github_id: nlewo/hydra-cli
-    description: >
-      A client for the Hydra Nix CI
     category: command-line-tools
   - name: hydra-cli
     github_id: nlewo/hydra-cli
@@ -866,11 +856,6 @@ projects:
     github_id: dnr/styx
     description: >
       Alternate nix substitution.
-    category: command-line-tools
-  - name: tarnix
-    github_id: puckipedia/tarnix
-    description: >
-      Who needs NAR files anyways?
     category: command-line-tools
   - name: tarnix
     github_id: puckipedia/tarnix
