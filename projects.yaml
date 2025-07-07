@@ -1843,6 +1843,11 @@ projects:
       Modular server management based on NixOS modules and focused on best
       practices.
     category: nixos-modules
+  - name: spicetify-nix
+    github_id: Gerg-L/spicetify-nix
+    description: >
+      A nix library for modifying spotify with spicetify
+    category: nixos-modules
   - name: srvos
     github_id: nix-community/srvos
     description: >
