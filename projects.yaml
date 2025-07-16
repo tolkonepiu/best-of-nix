@@ -541,6 +541,11 @@ projects:
     description: >
       Scan Nix files for dead code.
     category: command-line-tools
+  - name: dix
+    github_id: bloxx12/dix
+    description: >
+      A blazingly fast tool to diff Nix related things.
+    category: command-line-tools
   - name: drv-parts
     github_id: DavHau/drv-parts
     description: >
