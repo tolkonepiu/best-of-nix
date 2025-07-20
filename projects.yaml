@@ -1816,6 +1816,12 @@ projects:
     description: >
       A NixOS router framework
     category: nixos-modules
+  - name: nixos-unified
+    github_id: srid/nixos-unified
+    description: >
+      Unify NixOS + nix-darwin + home-manager configuration in a single flake,
+      while providing a consistent interface at DX and UX level.
+    category: nixos-modules
   - name: NixOS-WSL
     github_id: nix-community/NixOS-WSL
     description: >
