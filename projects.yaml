@@ -79,19 +79,19 @@ categories:
 labels:
   - label: haskell
     image: https://cdn.simpleicons.org/haskell
-    description: Project for the Haskell programming language
+    description: For Haskell
   - label: php
     image: https://cdn.simpleicons.org/php
-    description: Project for the PHP programming language
+    description: For PHP
   - label: python
     image: https://cdn.simpleicons.org/python/ffde57
-    description: Project for the Python programming language
+    description: For Python
   - label: ruby
     image: https://cdn.simpleicons.org/ruby
-    description: Project for the Ruby programming language
+    description: For Ruby
   - label: rust
     image: https://cdn.simpleicons.org/rust/CE422B
-    description: Project for the Rust programming language
+    description: For Rust
 
 projects:
   - name: awesome-nix
