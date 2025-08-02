@@ -1,11 +1,15 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
-    best-of-nix
-    <br>
+	<img src="https://raw.githubusercontent.com/NixOS/nixos-artwork/refs/heads/master/logo/nix-snowflake-colours.svg" width="200" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	best-of-nix
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h1>
 
 <p align="center">
     <strong>🏆&nbsp; A ranked list of the best resources in the Nix community. Updated weekly.</strong>
+    </br>
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
 </p>
 
 <p align="center">
