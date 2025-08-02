@@ -44,19 +44,19 @@ categories:
 
 labels:
   - label: haskell
-    image: https://www.haskell.org/img/favicon.ico
+    image: https://cdn.simpleicons.org/haskell
     description: Project for the Haskell programming language
   - label: php
-    image: https://www.php.net/favicon.ico
+    image: https://cdn.simpleicons.org/php
     description: Project for the PHP programming language
   - label: python
-    image: https://www.python.org/static/favicon.ico
+    image: https://cdn.simpleicons.org/python/ffde57
     description: Project for the Python programming language
   - label: ruby
-    image: https://www.ruby-lang.org/favicon.ico
+    image: https://cdn.simpleicons.org/ruby
     description: Project for the Ruby programming language
   - label: rust
-    image: https://www.rust-lang.org/logos/rust-logo-128x128.png
+    image: https://cdn.simpleicons.org/rust/CE422B
     description: Project for the Rust programming language
 
 projects:
@@ -1378,6 +1378,8 @@ projects:
     github_id: nix-community/crate2nix
     description: >
       rebuild only changed crates in CI with crate2nix and nix
+    labels:
+      - rust
     category: programming-languages
   - name: crystal2nix
     github_id: nix-community/crystal2nix
