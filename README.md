@@ -60,7 +60,7 @@ This curated list contains 390 awesome open-source projects with a total of 230K
 
 <br>
 
-## Learning
+## Personal configurations, dotfiles, and NixOS system examples
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 

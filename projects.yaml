@@ -13,6 +13,10 @@ configuration:
 categories:
   - category: learning
     title: Learning
+  - category: nix-configurations
+    title: Nix Configurations
+    subtitle: >
+      Personal configurations, dotfiles, and NixOS system examples
   - category: discovery
     title: Discovery
   - category: installation-media
@@ -70,27 +74,10 @@ projects:
     description: >
       Dev environments for numerous languages based on Nix flakes
     category: learning
-  - name: donovanglover/nix-config
-    github_id: donovanglover/nix-config
-    description: >
-      NixOS configuration with Nix Flakes, Home Manager, Stylix, and Hyprland.
-    category: learning
   - name: high-quality-nix-content
     github_id: gytis-ivaskevicius/high-quality-nix-content
     description: >
       GitHub repository containing highest quality Nix/NixOS content.
-    category: learning
-  - name: hlissner/dotfiles
-    github_id: hlissner/dotfiles
-    description: >
-      A comprehensive NixOS configuration example with detailed module
-      structure.
-    category: learning
-  - name: kclejeune/system
-    github_id: kclejeune/system
-    description: >
-      Declarative system configurations using nixOS, nix-darwin, and
-      home-manager.
     category: learning
   - name: Nix Notes
     github_id: noteed/nix-notes
@@ -102,12 +89,6 @@ projects:
     github_id: alper/nix-shorts
     description: >
       A collection of short notes about how to use Nix, updated for Nix Flakes.
-    category: learning
-  - name: Nix Starter Config
-    github_id: Misterio77/nix-starter-configs
-    description: >
-      A few simple Nix Flake templates for getting started with NixOS +
-      home-manager.
     category: learning
   - name: Nix Templates
     github_id: jonringer/nix-template
@@ -145,20 +126,10 @@ projects:
     description: >
       Official documentation for getting things done with Nix.
     category: learning
-  - name: nixbuntu-samples
-    github_id: lheckemann/nixbuntu-samples
-    description: >
-      Sample configurations for NixOS.
-    category: learning
   - name: NixOS & Flakes Book
     github_id: ryan4yin/nixos-and-flakes-book
     description: >
       An unofficial and opinionated NixOS & Flakes book for beginners.
-    category: learning
-  - name: NixOS Configuration Examples
-    github_id: NobbZ/nixos-config
-    description: >
-      An example of NixOS system configuration with home-manager integration.
     category: learning
   - name: NixOS Guide
     github_id: mikeroyal/NixOS-Guide
@@ -183,6 +154,62 @@ projects:
       A beginner's guide to Nix, providing step-by-step tutorials and
       explanations.
     category: learning
+  - name: donovanglover/nix-config
+    github_id: donovanglover/nix-config
+    description: >
+      NixOS configuration with Nix Flakes, Home Manager, Stylix, and Hyprland.
+    category: nix-configurations
+  - name: dustinlyons/nixos-config
+    github_id: dustinlyons/nixos-config
+    description: >
+      General purpose Nix configuration for macOS / NixOS (with starter
+      templates)
+    category: nix-configurations
+  - name: hlissner/dotfiles
+    github_id: hlissner/dotfiles
+    description: >
+      A comprehensive NixOS configuration example with detailed module
+      structure.
+    category: nix-configurations
+  - name: juspay/nixos-unified-template
+    github_id: juspay/nixos-unified-template
+    description: >
+      A ready-made Nix configuration to manage either your Home environment or
+      whole NixOS systems.
+    category: nix-configurations
+  - name: kclejeune/system
+    github_id: kclejeune/system
+    description: >
+      Declarative system configurations using nixOS, nix-darwin, and
+      home-manager.
+    category: nix-configurations
+  - name: Misterio77/nix-starter-configs
+    github_id: Misterio77/nix-starter-configs
+    description: >
+      A few simple Nix Flake templates for getting started with NixOS +
+      home-manager.
+    category: nix-configurations
+  - name: nixbuntu-samples
+    github_id: lheckemann/nixbuntu-samples
+    description: >
+      Sample configurations for NixOS.
+    category: nix-configurations
+  - name: NobbZ/nixos-config
+    github_id: NobbZ/nixos-config
+    description: >
+      An example of NixOS system configuration with home-manager integration.
+    category: nix-configurations
+  - name: mitchellh/nixos-config
+    github_id: mitchellh/nixos-config
+    description: >
+      NixOS system configurations for a development environment, primarily
+      running in a VM on macOS with VMware Fusion.
+    category: nix-configurations
+  - name: ryan4yin/nix-config
+    github_id: ryan4yin/nix-config
+    description: >
+      Nix config for both desktops(NixOS+macOS) and homelab servers(NixOS).
+    category: nix-configurations
   - name: Home Manager Option Search
     github_id: mipmip/home-manager-option-search
     description: >
