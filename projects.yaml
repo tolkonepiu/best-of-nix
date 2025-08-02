@@ -33,12 +33,12 @@ categories:
     title: Programming Languages
   - category: nixos-modules
     title: NixOS Modules
-  - category: nixos-configuration-editors
-    title: NixOS Configuration Editors
   - category: overlays
     title: Overlays
   - category: security
     title: Security
+  - category: editors-and-ides
+    title: Editors and IDEs
   - category: distributions
     title: Distributions
 
@@ -1116,11 +1116,6 @@ projects:
     description: >
       Run unpatched dynamic binaries on NixOS.
     category: development
-  - name: nix-mode
-    github_id: NixOS/nix-mode
-    description: >
-      An Emacs major mode for editing Nix expressions.
-    category: development
   - name: nix-plugins
     github_id: shlevy/nix-plugins
     description: >
@@ -1271,11 +1266,6 @@ projects:
     description: >
       Static site generator in Nix expression language.
     category: development
-  - name: sublime-nix
-    github_id: wmertens/sublime-nix
-    description: >
-      Nix syntax highlighting for Sublime Text
-    category: development
   - name: templates
     github_id: nix-community/templates
     description: >
@@ -1295,11 +1285,6 @@ projects:
     github_id: loqusion/typix
     description: >
       Deterministic Typst compilation with Nix
-    category: development
-  - name: vscode-nix-ide
-    github_id: nix-community/vscode-nix-ide
-    description: >
-      Nix language support for Visual Studio Code.
     category: development
   - name: zellij-nix
     github_id: a-kenji/zellij-nix
@@ -1736,11 +1721,6 @@ projects:
     description: >
       Manage macOS configuration just like on NixOS.
     category: nixos-modules
-  - name: nix-idea
-    github_id: NixOS/nix-idea
-    description: >
-      Nix plugin for the IntelliJ IDEA IDE.
-    category: nixos-modules
   - name: nix-minecraft
     github_id: Infinidoge/nix-minecraft
     description: >
@@ -1783,11 +1763,6 @@ projects:
     description: >
       Declarative Kiosk systems built with NixOS.
     category: nixos-modules
-  - name: NixNeovim
-    github_id: NixNeovim/NixNeovim
-    description: >
-      Configure Neovim with Nix!
-    category: nixos-modules
   - name: nixos-cosmic
     github_id: lilyinstarlight/nixos-cosmic
     description: >
@@ -1829,21 +1804,10 @@ projects:
     description: >
       Modules for running NixOS on the Windows Subsystem for Linux.
     category: nixos-modules
-  - name: NixVim
-    github_id: nix-community/nixvim
-    description: >
-      A NeoVim distribution built with Nix modules and Nixpkgs.
-    category: nixos-modules
   - name: notnft
     github_id: chayleaf/notnft
     description: >
       Nix DSL for nftables
-    category: nixos-modules
-  - name: nvf
-    github_id: notashelf/nvf
-    description: >
-      Highly modular, configurable, extensible and easy to use Neovim
-      configuration in Nix.
     category: nixos-modules
   - name: ollama-flake
     github_id: abysssol/ollama-flake
@@ -1881,16 +1845,6 @@ projects:
     description: >
       Declaratively bear (manage) Linux users and groups.
     category: nixos-modules
-  - name: Nix Software Center
-    github_id: snowfallorg/nix-software-center
-    description: >
-      Install and manage Nix packages.
-    category: nixos-configuration-editors
-  - name: NixOS Configuration Editor
-    github_id: snowfallorg/nixos-conf-editor
-    description: >
-      Graphical editor for NixOS configuration.
-    category: nixos-configuration-editors
   - name: awesome-nix-hpc
     github_id: freuk/awesome-nix-hpc
     description: >
@@ -2083,6 +2037,42 @@ projects:
     description: >
       Vulnerability (CVE) scanner for Nix/NixOS.
     category: security
+  - name: nix-idea
+    github_id: NixOS/nix-idea
+    description: >
+      Nix plugin for the IntelliJ IDEA IDE.
+    category: editors-and-ides
+  - name: nix-mode
+    github_id: NixOS/nix-mode
+    description: >
+      An Emacs major mode for editing Nix expressions.
+    category: editors-and-ides
+  - name: NixNeovim
+    github_id: NixNeovim/NixNeovim
+    description: >
+      Configure Neovim with Nix!
+    category: editors-and-ides
+  - name: NixVim
+    github_id: nix-community/nixvim
+    description: >
+      A NeoVim distribution built with Nix modules and Nixpkgs.
+    category: editors-and-ides
+  - name: nvf
+    github_id: notashelf/nvf
+    description: >
+      Highly modular, configurable, extensible and easy to use Neovim
+      configuration in Nix.
+    category: editors-and-ides
+  - name: sublime-nix
+    github_id: wmertens/sublime-nix
+    description: >
+      Nix syntax highlighting for Sublime Text
+    category: editors-and-ides
+  - name: vscode-nix-ide
+    github_id: nix-community/vscode-nix-ide
+    description: >
+      Nix language support for Visual Studio Code.
+    category: editors-and-ides
   - name: Athena
     github_id: Athena-OS/athena
     description: >
