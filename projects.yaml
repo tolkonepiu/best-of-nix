@@ -13,38 +13,68 @@ configuration:
 categories:
   - category: learning
     title: Learning
+    subtitle: >
+      Tutorials, guides, and educational resources for learning Nix and NixOS
   - category: nix-configurations
     title: Nix Configurations
     subtitle: >
       Personal configurations, dotfiles, and NixOS system examples
   - category: discovery
     title: Discovery
+    subtitle: >
+      Tools and services for searching and exploring Nix packages and options
   - category: installation-media
     title: Installation Media
+    subtitle: >
+      Tools for installing, deploying, and setting up NixOS systems
   - category: github-actions
     title: Github Actions
+    subtitle: >
+      GitHub Actions and CI/CD integrations for Nix-based projects
   - category: deployment-tools
     title: Deployment Tools
+    subtitle: >
+      Tools for deploying and managing NixOS systems at scale
   - category: virtualisation
     title: Virtualisation
+    subtitle: >
+      Containers, VMs, and virtualization solutions for NixOS
   - category: command-line-tools
     title: Command-Line Tools
+    subtitle: >
+      CLI utilities and tools for working with Nix and NixOS
   - category: development
     title: Development
+    subtitle: >
+      Development environments, tools, and frameworks for Nix
   - category: devops
     title: DevOps
+    subtitle: >
+      CI/CD, automation, and infrastructure management tools
   - category: programming-languages
     title: Programming Languages
+    subtitle: >
+      Language-specific tools and integrations for various programming languages
   - category: nixos-modules
     title: NixOS Modules
+    subtitle: >
+      Reusable NixOS modules for extending system functionality
   - category: overlays
     title: Overlays
+    subtitle: >
+      Package collections and overlays for extending Nixpkgs
   - category: security
     title: Security
+    subtitle: >
+      Security tools, secret management, and hardening solutions
   - category: editors-and-ides
     title: Editors and IDEs
+    subtitle: >
+      Editor plugins and IDE integrations for Nix development
   - category: distributions
     title: Distributions
+    subtitle: >
+      Alternative distributions and variants based on Nix or NixOS
 
 labels:
   - label: haskell
