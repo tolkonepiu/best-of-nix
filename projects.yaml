@@ -59,6 +59,10 @@ categories:
     title: NixOS Modules
     subtitle: >
       Reusable NixOS modules for extending system functionality
+  - category: theming
+    title: Theming
+    subtitle: >
+      Tools and modules for theming, styling, and visual customization
   - category: overlays
     title: Overlays
     subtitle: >
@@ -1723,12 +1727,6 @@ projects:
     description: >
       Convert the dependencies in `build.zig.zon` to a Nix expression.
     category: programming-languages
-  - name: base16.nix
-    github_id: SenchoPens/base16.nix
-    description: >
-      Flake way to theme programs in base16 colorschemes, mustache template
-      support included.
-    category: nixos-modules
   - name: Home Manager
     github_id: nix-community/home-manager
     description: >
@@ -1781,11 +1779,6 @@ projects:
       Modules and packages for Bitcoin nodes with higher-layer protocols with an
       emphasis on security.
     category: nixos-modules
-  - name: nix-colors
-    github_id: Misterio77/nix-colors
-    description: >
-      Modules and schemes to make theming with Nix awesome.
-    category: nixos-modules
   - name: nix-darwin
     github_id: nix-darwin/nix-darwin
     description: >
@@ -1812,11 +1805,6 @@ projects:
     description: >
       Generate infrastructure and network diagrams directly from your NixOS
       configuration.
-    category: nixos-modules
-  - name: nix-wallpaper
-    github_id: lunik1/nix-wallpaper
-    description: >
-      A configurable wallpaper for nix systems.
     category: nixos-modules
   - name: nixarr
     github_id: rasmus-kirk/nixarr
@@ -1890,20 +1878,10 @@ projects:
       Modular server management based on NixOS modules and focused on best
       practices.
     category: nixos-modules
-  - name: spicetify-nix
-    github_id: Gerg-L/spicetify-nix
-    description: >
-      A nix library for modifying spotify with spicetify
-    category: nixos-modules
   - name: srvos
     github_id: nix-community/srvos
     description: >
       NixOS profiles for servers.
-    category: nixos-modules
-  - name: Stylix
-    github_id: nix-community/stylix
-    description: >
-      System-wide colorscheming and typography for NixOS.
     category: nixos-modules
   - name: systemd-nix
     github_id: serokell/systemd-nix
@@ -1915,6 +1893,38 @@ projects:
     description: >
       Declaratively bear (manage) Linux users and groups.
     category: nixos-modules
+  - name: base16.nix
+    github_id: SenchoPens/base16.nix
+    description: >
+      Flake way to theme programs in base16 colorschemes, mustache template
+      support included.
+    category: theming
+  - name: catppuccin/nix
+    github_id: catppuccin/nix
+    description: >
+      Catppuccin for Nix brings the soothing pastel aesthetics of the Catppuccin
+      theme to your NixOS and home-manager configurations.
+    category: theming
+  - name: nix-colors
+    github_id: Misterio77/nix-colors
+    description: >
+      Modules and schemes to make theming with Nix awesome.
+    category: theming
+  - name: nix-wallpaper
+    github_id: lunik1/nix-wallpaper
+    description: >
+      A configurable wallpaper for nix systems.
+    category: theming
+  - name: spicetify-nix
+    github_id: Gerg-L/spicetify-nix
+    description: >
+      A nix library for modifying spotify with spicetify
+    category: theming
+  - name: Stylix
+    github_id: nix-community/stylix
+    description: >
+      System-wide colorscheming and typography for NixOS.
+    category: theming
   - name: awesome-nix-hpc
     github_id: freuk/awesome-nix-hpc
     description: >
