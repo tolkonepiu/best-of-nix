@@ -111,11 +111,6 @@ projects:
     description: >
       Dev environments for numerous languages based on Nix flakes
     category: learning
-  - name: high-quality-nix-content
-    github_id: gytis-ivaskevicius/high-quality-nix-content
-    description: >
-      GitHub repository containing highest quality Nix/NixOS content.
-    category: learning
   - name: Nix Notes
     github_id: noteed/nix-notes
     description: >
@@ -1910,6 +1905,11 @@ projects:
     description: >
       Catppuccin for Nix brings the soothing pastel aesthetics of the Catppuccin
       theme to your NixOS and home-manager configurations.
+    category: theming
+  - name: high-quality-nix-content
+    github_id: gytis-ivaskevicius/high-quality-nix-content
+    description: >
+      GitHub repository containing highest quality Nix/NixOS content.
     category: theming
   - name: nix-colors
     github_id: Misterio77/nix-colors
