@@ -892,6 +892,11 @@ projects:
     description: >
       Generate Nix fetcher calls from repository URLs.
     category: command-line-tools
+  - name: optnix
+    github_id: water-sucks/optnix
+    description: >
+      A fast, terminal-based options searcher for Nix module systems.
+    category: command-line-tools
   - name: patchelf
     github_id: NixOS/patchelf
     description: >
