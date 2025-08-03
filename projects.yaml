@@ -657,6 +657,12 @@ projects:
     description: >
       An interactive Nix documentation tool providing CLI for function search.
     category: command-line-tools
+  - name: lix
+    github_id: lix-project/lix
+    description: >
+      A modern, delicious implementation of the Nix package manager, focused on
+      correctness, usability, and growth.
+    category: command-line-tools
   - name: lon
     github_id: nikstur/lon
     description: >
@@ -2146,12 +2152,6 @@ projects:
     github_id: celun/celun
     description: >
       The customizable embedded Linux using Nix.
-    category: distributions
-  - name: lix
-    github_id: lix-project/lix
-    description: >
-      A modern, delicious implementation of the Nix package manager, focused on
-      correctness, usability, and growth.
     category: distributions
   - name: mobile-nixos
     github_id: mobile-nixos/mobile-nixos
