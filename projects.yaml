@@ -1351,7 +1351,8 @@ projects:
   - name: treefmt-nix
     github_id: numtide/treefmt-nix
     description: >
-      A Nix configuration for `treefmt`.
+      A formatter that allows formatting all your project files with a single
+      command, all via a single `.nix` file.
     category: development
   - name: Typix
     github_id: loqusion/typix
