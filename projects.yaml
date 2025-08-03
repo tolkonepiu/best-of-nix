@@ -2103,6 +2103,11 @@ projects:
     description: >
       Hardened Firefox flake for the delusional and the schizophrenics.
     category: security
+  - name: sopswarden
+    github_id: pfassina/sopswarden
+    description: >
+      SOPS secrets management integrated with Bitwarden for NixOS.
+    category: security
   - name: shoji-nix
     github_id: AdoPi/shoji-nix
     description: >
