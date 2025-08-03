@@ -247,6 +247,11 @@ projects:
     description: >
       Search through all 2000+ Home Manager options and read how to use them.
     category: discovery
+  - name: lf-doc
+    github_id: lf-/nix-doc
+    description: >
+      An interactive Nix documentation tool providing CLI for function search.
+    category: discovery
   - name: Nix Package Versions
     github_id: lazamar/nix-package-versions
     description: >
@@ -283,6 +288,16 @@ projects:
     github_id: NuschtOS/search
     description: >
       Simple and fast static-page NixOS option search.
+    category: discovery
+  - name: optnix
+    github_id: water-sucks/optnix
+    description: >
+      A fast, terminal-based options searcher for Nix module systems.
+    category: discovery
+  - name: rippkgs
+    github_id: replit/rippkgs
+    description: >
+      A CLI for indexing and searching packages in Nix expressions
     category: discovery
   - name: nix-installer
     github_id: DeterminateSystems/nix-installer
@@ -651,11 +666,6 @@ projects:
     description: >
       A client for the Hydra Nix CI
     category: command-line-tools
-  - name: lf-doc
-    github_id: lf-/nix-doc
-    description: >
-      An interactive Nix documentation tool providing CLI for function search.
-    category: command-line-tools
   - name: lix
     github_id: lix-project/lix
     description: >
@@ -887,11 +897,6 @@ projects:
     description: >
       Generate Nix fetcher calls from repository URLs.
     category: command-line-tools
-  - name: optnix
-    github_id: water-sucks/optnix
-    description: >
-      A fast, terminal-based options searcher for Nix module systems.
-    category: command-line-tools
   - name: patchelf
     github_id: NixOS/patchelf
     description: >
@@ -916,11 +921,6 @@ projects:
     github_id: grahamc/r13y.com
     description: >
       NixOS Reproducibility Checker.
-    category: command-line-tools
-  - name: rippkgs
-    github_id: replit/rippkgs
-    description: >
-      A CLI for indexing and searching packages in Nix expressions
     category: command-line-tools
   - name: statix
     github_id: oppiliappan/statix
