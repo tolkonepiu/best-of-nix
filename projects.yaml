@@ -92,6 +92,9 @@ labels:
   - label: rust
     image: https://cdn.simpleicons.org/rust/CE422B
     description: For Rust
+  - label: android
+    image: https://cdn.simpleicons.org/android
+    description: For Android
 
 projects:
   - name: awesome-nix
@@ -1301,6 +1304,8 @@ projects:
     description: >
       A declarative and reproducible build system for Android (AOSP) images.
     category: development
+    labels:
+      - android
   - name: services-flake
     github_id: juspay/services-flake
     description: >
@@ -1364,6 +1369,8 @@ projects:
     description: >
       Nix-packaged Android SDK.
     category: programming-languages
+    labels:
+      - android
   - name: Bundix
     github_id: nix-community/bundix
     description: >
@@ -2155,6 +2162,8 @@ projects:
     github_id: nix-community/nix-on-droid
     description: >
       Nix-enabled environment for your Android device.
+    labels:
+      - android
     category: distributions
   - name: nixbsd
     github_id: nixos-bsd/nixbsd
@@ -2172,6 +2181,8 @@ projects:
     description: >
       NixOS for Android Terminal (Android Virtualization Framework).
     category: distributions
+    labels:
+      - android
   - name: nixos-riscv
     github_id: NickCao/nixos-riscv
     description: >
