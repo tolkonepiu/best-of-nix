@@ -2,33 +2,19 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/cachix/devenv">devenv</a></b> (🥇30 ·  ⭐ 5.5K · 📈) - A Nix-based tool for creating developer shell environments quickly and reproducibly. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/nix-community/nixos-apple-silicon">nixos-apple-silicon</a></b> (🥇22 ·  ⭐ 1.2K · 📈) - Resources to install NixOS bare metal on Apple Silicon Macs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/nix-community/comma">comma</a></b> (🥇21 ·  ⭐ 1.4K · 📈) - Quickly run any binary; wraps together `nix run` and `nix-index`. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/mobile-nixos/mobile-nixos">mobile-nixos</a></b> (🥇20 ·  ⭐ 1.1K · 📈) - NixOS for mobile devices like phones. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/juspay/services-flake">services-flake</a></b> (🥇18 ·  ⭐ 560 · 📈) - A NixOS-like service configuration framework for Nix flakes. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/numtide/treefmt">treefmt</a></b> (🥇23 ·  ⭐ 790 · 📈) - One CLI to format the code tree, using formatters such as alejandra, prettier, etc. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/DBCDK/morph">morph</a></b> (🥇18 ·  ⭐ 960 · 📈) - A tool for managing existing NixOS hosts. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/microvm-nix/microvm.nix">microvm</a></b> (🥇17 ·  ⭐ 1.8K · 📈) - NixOS-based MicroVMs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/cachix/cachix">cachix</a></b> (🥈16 ·  ⭐ 920 · 📈) - Command line client for Nix binary cache hosting. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/nix-community/hydra-check">hydra-check</a></b> (🥈12 ·  ⭐ 100 · 📈) - Check hydra for the build status of a package. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 
 ## 📉 Trending Down
 
 _Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
 
-- <b><a href="https://github.com/nix-community/NixOS-WSL">NixOS-WSL</a></b> (🥇22 ·  ⭐ 2.4K · 📉) - Modules for running NixOS on the Windows Subsystem for Linux. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/nix-community/nixd">nixd</a></b> (🥇19 ·  ⭐ 1.1K · 📉) - Nix language server, based on Nix libraries. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code>
-- <b><a href="https://github.com/nix-community/nixdoc">nixdoc</a></b> (🥈14 ·  ⭐ 150 · 📉) - Tool to generate documentation for Nix library functions. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
-- <b><a href="https://github.com/mirrexagon/nixpkgs-esp-dev">nixpkgs-esp-dev</a></b> (🥉11 ·  ⭐ 220 · 📉) - Nix flake and overlay for ESP8266 and ESP32 development. <code><a href="https://tldrlegal.com/search?q=CC0-1.0">❗️CC0-1.0</a></code>
-- <b><a href="https://github.com/replit/rippkgs">rippkgs</a></b> (🥉11 ·  ⭐ 160 · 📉) - A CLI for indexing and searching packages in Nix expressions. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-
-## ➕ Added Projects
-
-_Projects that were recently added to this best-of list._
-
-- <b><a href="https://github.com/ryan4yin/nix-config">ryan4yin/nix-config</a></b> (🥇21 ·  ⭐ 1.5K · ➕) - Nix config for both desktops(NixOS+macOS) and homelab servers(NixOS). <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/catppuccin/nix">catppuccin/nix</a></b> (🥈19 ·  ⭐ 570 · ➕) - Catppuccin for Nix brings the soothing pastel aesthetics of the Catppuccin theme to your NixOS and home-manager.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/dustinlyons/nixos-config">dustinlyons/nixos-config</a></b> (🥈18 ·  ⭐ 2.9K · ➕) - General purpose Nix configuration for macOS / NixOS (with starter templates). <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/mitchellh/nixos-config">mitchellh/nixos-config</a></b> (🥈16 ·  ⭐ 2.6K · ➕) - NixOS system configurations for a development environment, primarily running in a VM on macOS with VMware Fusion. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/NobbZ/nixos-config">NobbZ/nixos-config</a></b> (🥉14 ·  ⭐ 260 · ➕) - An example of NixOS system configuration with home-manager integration. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/Misterio77/nix-starter-configs">Misterio77/nix-starter-configs</a></b> (🥉13 ·  ⭐ 3.3K · 💤) - A few simple Nix Flake templates for getting started with NixOS + home-manager. <code><a href="https://tldrlegal.com/search?q=CC0-1.0">❗️CC0-1.0</a></code>
-- <b><a href="https://github.com/juspay/nixos-unified-template">juspay/nixos-unified-template</a></b> (🥉13 ·  ⭐ 300 · ➕) - A ready-made Nix configuration to manage either your Home environment or whole NixOS systems. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code>
-- <b><a href="https://github.com/water-sucks/optnix">optnix</a></b> (🥉9 ·  ⭐ 58 · ➕) - A fast, terminal-based options searcher for Nix module systems. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
-- <b><a href="https://github.com/pfassina/sopswarden">sopswarden</a></b> (🥉8 ·  ⭐ 73 · 🐣) - SOPS secrets management integrated with Bitwarden for NixOS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/DeterminateSystems/update-flake-lock">update-flake-lock</a></b> (🥈22 ·  ⭐ 320 · 📉) - This is a GitHub Action that updates the flake.lock file for your Nix flake whenever it is run. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/nix-community/vulnix">vulnix</a></b> (🥇17 ·  ⭐ 590 · 📉) - Vulnerability (CVE) scanner for Nix/NixOS. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
+- <b><a href="https://github.com/ryantm/agenix">agenix</a></b> (🥇16 ·  ⭐ 1.9K · 📉) - age-encrypted secrets for NixOS and Home manager. <code><a href="https://tldrlegal.com/search?q=CC0-1.0">❗️CC0-1.0</a></code>
+- <b><a href="https://github.com/fluidattacks/makes">Makes</a></b> (🥇16 ·  ⭐ 500 · 📉) - A Nix-based CI/CD pipeline framework for building, testing, and releasing projects in any language, from anywhere. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/DeterminateSystems/zero-to-nix">Zero to Nix</a></b> (🥈14 ·  ⭐ 1.1K · 📉) - A beginners guide to Nix, providing step-by-step tutorials and explanations. <code>❗Unlicensed</code>
 
