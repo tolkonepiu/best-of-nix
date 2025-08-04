@@ -5,6 +5,7 @@ configuration:
   max_description_length: 1000
   min_stars: 0
   min_projectrank: 0
+  generate_install_hints: false
   require_homepage: false
   require_license: false
   allowed_licenses:
@@ -82,22 +83,22 @@ categories:
 
 labels:
   - label: haskell
-    image: https://cdn.simpleicons.org/haskell
+    image: https://api.iconify.design/devicon:haskell.svg
     description: For Haskell
   - label: php
-    image: https://cdn.simpleicons.org/php
+    image: https://api.iconify.design/devicon:php.svg
     description: For PHP
   - label: python
-    image: https://cdn.simpleicons.org/python/ffde57
+    image: https://api.iconify.design/devicon:python.svg
     description: For Python
   - label: ruby
-    image: https://cdn.simpleicons.org/ruby
+    image: https://api.iconify.design/devicon:ruby.svg
     description: For Ruby
   - label: rust
     image: https://cdn.simpleicons.org/rust/CE422B
     description: For Rust
   - label: android
-    image: https://cdn.simpleicons.org/android
+    image: https://api.iconify.design/devicon:android.svg
     description: For Android
 
 projects:
