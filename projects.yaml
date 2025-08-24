@@ -1729,6 +1729,11 @@ projects:
     description: >
       Convert the dependencies in `build.zig.zon` to a Nix expression.
     category: programming-languages
+  - name: dns.nix
+    github_id: nix-community/dns.nix
+    description: >
+      A Nix DSL for DNS zone files.
+    category: nixos-modules
   - name: Home Manager
     github_id: nix-community/home-manager
     description: >
