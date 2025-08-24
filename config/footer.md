@@ -4,7 +4,7 @@
 ## Related Resources
 
 - [**Awesome Nix**](https://github.com/nix-community/awesome-nix): A curated list of the best resources in the Nix community.
-- [**Nix stuff**](https://github.com/stars/h7x4/lists/nix-stuff): Projects related to nix and nixos.
+- [**Nix stuff**](https://github.com/stars/h7x4/lists/nix-stuff): Projects related to Nix and NixOS.
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
 
 ## Contribution
