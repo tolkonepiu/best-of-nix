@@ -476,6 +476,11 @@ projects:
       A Nix flake library to provide app outputs for managing existing NixOS
       hosts over SSH.
     category: deployment-tools
+  - name: Nixlets
+    github_id: TECHNOFAB/nixlets
+    description: >
+      Like Helm but using only Nix, uses Kubenix under the hood.
+    category: deployment-tools
   - name: NixOps
     github_id: NixOS/nixops
     description: >
@@ -606,6 +611,12 @@ projects:
     description: >
       An opinionated Nix code formatter optimized for speed and consistency.
     category: command-line-tools
+  - name: angrr
+    github_id: linyinfeng/angrr
+    description: >
+      Auto Nix GC Roots Retention. This tool simply deletes auto GC roots based
+      on the modified time of their symbolic link target.
+    category: command-line-tools
   - name: comma
     github_id: nix-community/comma
     description: >
@@ -698,7 +709,8 @@ projects:
   - name: nh
     github_id: nix-community/nh
     description: >
-      Yet another Nix CLI helper.
+      Better output for `nix`, `nixos-rebuild`, `home-manager` and nix-darwin
+      CLI leveraging `dix` and `nix-output-monitor`.
     category: command-line-tools
   - name: nix-alien
     github_id: thiagokokada/nix-alien
@@ -718,7 +730,7 @@ projects:
   - name: nix-bundle
     github_id: nix-community/nix-bundle
     description: >
-      Bundle Nix derivations to run anywhere!
+      Bundle Nix derivations to run anywhere.
     category: command-line-tools
   - name: nix-diff
     github_id: Gabriella439/nix-diff
@@ -789,7 +801,7 @@ projects:
   - name: nix-patcher
     github_id: katrinafyi/nix-patcher
     description: >
-      a tool for patching Nix flake inputs, declaratively!
+      a tool for patching Nix flake inputs, declaratively.
     category: command-line-tools
   - name: nix-prefetch
     github_id: msteen/nix-prefetch
@@ -1134,6 +1146,12 @@ projects:
     description: >
       A much better `nix-shell` for development that augments direnv.
     category: development
+  - name: make-shell
+    github_id: nicknovitski/make-shell
+    description: >
+      `mkShell` meets modules, a modular almost-drop-in replacement for
+      `pkgs.mkShell` function.
+    category: development
   - name: MCP-NixOS
     github_id: utensils/mcp-nixos
     description: >
@@ -1242,6 +1260,12 @@ projects:
     description: >
       The best tool to verify that a pull-request in Nixpkgs is building
       properly.
+    category: development
+  - name: Nixtest
+    github_id: TECHNOFAB/nixtest
+    description: >
+      Testing framework for Nix, with snapshot and unit test support, JUnit
+      generation etc.
     category: development
   - name: nixpkgs-update
     github_id: nix-community/nixpkgs-update
@@ -1455,7 +1479,7 @@ projects:
   - name: easy-hls-nix
     github_id: jkachmar/easy-hls-nix
     description: >
-      Easy Haskell Language Server tooling with Nix!
+      Easy Haskell Language Server tooling with Nix.
     category: programming-languages
     labels:
       - haskell
@@ -2147,7 +2171,7 @@ projects:
   - name: NixNeovim
     github_id: NixNeovim/NixNeovim
     description: >
-      Configure Neovim with Nix!
+      Configure Neovim with Nix.
     category: editors-and-ides
   - name: NixVim
     github_id: nix-community/nixvim
