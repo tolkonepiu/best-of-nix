@@ -477,7 +477,7 @@ projects:
       hosts over SSH.
     category: deployment-tools
   - name: Nixlets
-    github_id: TECHNOFAB/nixlets
+    gitlab_id: TECHNOFAB/nixlets
     description: >
       Like Helm but using only Nix, uses Kubenix under the hood.
     category: deployment-tools
@@ -1262,7 +1262,7 @@ projects:
       properly.
     category: development
   - name: Nixtest
-    github_id: TECHNOFAB/nixtest
+    gitlab_id: TECHNOFAB/nixtest
     description: >
       Testing framework for Nix, with snapshot and unit test support, JUnit
       generation etc.
