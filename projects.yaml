@@ -527,6 +527,11 @@ projects:
     description: >
       Create and deploy game servers with nix.
     category: devops
+  - name: krewfile
+    github_id: brumhard/krewfile
+    description: >
+      Declarative krew plugin management.
+    category: devops
   - name: lila
     github_id: JulienMalka/lila
     description: >
