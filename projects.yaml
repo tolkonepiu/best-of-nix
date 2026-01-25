@@ -392,6 +392,12 @@ projects:
       totally free and zero-configuration binary cache for Nix on GitHub
       Actions.
     category: github-actions
+  - name: nothing-but-nix
+    github_id: wimpysworld/nothing-but-nix
+    description: >
+      Create a 130GB Nix store in GitHub runners by ruthlessly purging
+      unnecessary software and configuring BTRFS RAID-0 for /nix.
+    category: github-actions
   - name: nix-installer-action
     github_id: DeterminateSystems/nix-installer-action
     description: >
