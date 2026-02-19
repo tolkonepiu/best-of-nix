@@ -2205,6 +2205,11 @@ projects:
     description: >
       Nix language support for Visual Studio Code.
     category: editors-and-ides
+  - name: nix4nvchad
+    github_id: nix-community/nix4nvchad
+    description: >
+      Install NvChad on Nix-based system.
+    category: editors-and-ides
   - name: Athena
     github_id: Athena-OS/athena
     description: >
