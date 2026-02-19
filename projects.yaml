@@ -2009,11 +2009,6 @@ projects:
     description: >
       A collection of Amateur Radio software packaged for Nix.
     category: overlays
-  - name: neovim-nightly-overlay
-    github_id: nix-community/neovim-nightly-overlay
-    description: >
-      Bleeding edge Neovim overlay.
-    category: overlays
   - name: ngipkgs
     github_id: ngi-nix/ngipkgs
     description: >
@@ -2023,11 +2018,6 @@ projects:
     github_id: jcszymansk/nixcasks
     description: >
       Homebrew casks, nixified.
-    category: overlays
-  - name: NixNeovimPlugins
-    github_id: NixNeovim/NixNeovimPlugins
-    description: >
-      Makes all neovim plugins available in nix (Auto updated).
     category: overlays
   - name: nixpkgs-cuda-ci
     github_id: SomeoneSerge/nixpkgs-cuda-ci
@@ -2209,6 +2199,21 @@ projects:
     github_id: nix-community/nix4nvchad
     description: >
       Install NvChad on Nix-based system.
+    category: editors-and-ides
+  - name: nix4vscode
+    github_id: nix-community/nix4vscode
+    description: >
+      Nix overlay for VSCode.
+    category: editors-and-ides
+  - name: NixNeovimPlugins
+    github_id: NixNeovim/NixNeovimPlugins
+    description: >
+      Makes all neovim plugins available in nix (Auto updated).
+    category: editors-and-ides
+  - name: neovim-nightly-overlay
+    github_id: nix-community/neovim-nightly-overlay
+    description: >
+      Bleeding edge Neovim overlay.
     category: editors-and-ides
   - name: Athena
     github_id: Athena-OS/athena
