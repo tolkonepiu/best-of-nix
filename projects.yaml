@@ -1769,6 +1769,11 @@ projects:
     description: >
       A Nix DSL for DNS zone files.
     category: nixos-modules
+  - name: hjem
+    github_id: feel-co/hjem
+    description: >
+      Streamlined, elegant $HOME management with Nix
+    category: nixos-modules
   - name: Home Manager
     github_id: nix-community/home-manager
     description: >
