@@ -1169,6 +1169,12 @@ projects:
       An MCP server that provides AI assistants with accurate information about
       NixOS packages, options, Home Manager, and nix-darwin configurations.
     category: development
+  - name: mcp-servers-nix
+    github_id: natsukium/mcp-servers-nix
+    description: >
+      A Nix-based configuration framework for Model Control Protocol (MCP)
+      servers with ready-to-use packages.
+    category: development
   - name: namaka
     github_id: nix-community/namaka
     description: >
