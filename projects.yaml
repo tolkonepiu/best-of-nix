@@ -1417,6 +1417,24 @@ projects:
       Build system and configuration files for generating and building ZMK
       firmware with Nix.
     category: development
+  - name: rigup.nix
+    github_id: YPares/rigup.nix
+    description: >
+      AI agents and Nix: parametrable skills/instructions and tools, packaged
+      together in a reproducible and modular fashion.
+    category: development
+  - name: llm-agents.nix
+    github_id: numtide/llm-agents.nix
+    description: >
+      Nix packages for AI coding agents and development tools. Automatically
+      updated daily.
+    category: development
+  - name: agent-skills-nix
+    github_id: Kyure-A/agent-skills-nix
+    description: >
+      Declarative management of Agent Skills on Nix with flake-pinned sources,
+      discovery, selection, bundling, and Home Manager integration.
+    category: development
   - name: android-nixpkgs
     github_id: tadfisher/android-nixpkgs
     description: >
