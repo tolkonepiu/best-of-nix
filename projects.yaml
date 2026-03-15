@@ -44,6 +44,10 @@ categories:
     title: Command-Line Tools
     subtitle: >
       CLI utilities and tools for working with Nix and NixOS
+  - category: ai-tooling
+    title: AI Tooling
+    subtitle: >
+      LLM, AI agent, MCP server, and related AI tooling built with Nix
   - category: development
     title: Development
     subtitle: >
@@ -972,6 +976,41 @@ projects:
     description: >
       UTF-8 support for Nix.
     category: command-line-tools
+  - name: agent-skills-nix
+    github_id: Kyure-A/agent-skills-nix
+    description: >
+      Declarative management of Agent Skills on Nix with flake-pinned sources,
+      discovery, selection, bundling, and Home Manager integration.
+    category: ai-tooling
+  - name: llm-agents.nix
+    github_id: numtide/llm-agents.nix
+    description: >
+      Nix packages for AI coding agents and development tools. Automatically
+      updated daily.
+    category: ai-tooling
+  - name: MCP-NixOS
+    github_id: utensils/mcp-nixos
+    description: >
+      An MCP server that provides AI assistants with accurate information about
+      NixOS packages, options, Home Manager, and nix-darwin configurations.
+    category: ai-tooling
+  - name: mcp-servers-nix
+    github_id: natsukium/mcp-servers-nix
+    description: >
+      A Nix-based configuration framework for Model Control Protocol (MCP)
+      servers with ready-to-use packages.
+    category: ai-tooling
+  - name: ollama-flake
+    github_id: abysssol/ollama-flake
+    description: >
+      A nix flake for Ollama.
+    category: ai-tooling
+  - name: rigup.nix
+    github_id: YPares/rigup.nix
+    description: >
+      AI agents and Nix: parametrable skills/instructions and tools, packaged
+      together in a reproducible and modular fashion.
+    category: ai-tooling
   - name: any-nix-shell
     github_id: haslersn/any-nix-shell
     description: >
@@ -1162,18 +1201,6 @@ projects:
     description: >
       `mkShell` meets modules, a modular almost-drop-in replacement for
       `pkgs.mkShell` function.
-    category: development
-  - name: MCP-NixOS
-    github_id: utensils/mcp-nixos
-    description: >
-      An MCP server that provides AI assistants with accurate information about
-      NixOS packages, options, Home Manager, and nix-darwin configurations.
-    category: development
-  - name: mcp-servers-nix
-    github_id: natsukium/mcp-servers-nix
-    description: >
-      A Nix-based configuration framework for Model Control Protocol (MCP)
-      servers with ready-to-use packages.
     category: development
   - name: namaka
     github_id: nix-community/namaka
@@ -1416,24 +1443,6 @@ projects:
     description: >
       Build system and configuration files for generating and building ZMK
       firmware with Nix.
-    category: development
-  - name: rigup.nix
-    github_id: YPares/rigup.nix
-    description: >
-      AI agents and Nix: parametrable skills/instructions and tools, packaged
-      together in a reproducible and modular fashion.
-    category: development
-  - name: llm-agents.nix
-    github_id: numtide/llm-agents.nix
-    description: >
-      Nix packages for AI coding agents and development tools. Automatically
-      updated daily.
-    category: development
-  - name: agent-skills-nix
-    github_id: Kyure-A/agent-skills-nix
-    description: >
-      Declarative management of Agent Skills on Nix with flake-pinned sources,
-      discovery, selection, bundling, and Home Manager integration.
     category: development
   - name: android-nixpkgs
     github_id: tadfisher/android-nixpkgs
@@ -1937,11 +1946,6 @@ projects:
     github_id: chayleaf/notnft
     description: >
       Nix DSL for nftables
-    category: nixos-modules
-  - name: ollama-flake
-    github_id: abysssol/ollama-flake
-    description: >
-      A nix flake for Ollama.
     category: nixos-modules
   - name: Self Host Blocks
     github_id: ibizaman/selfhostblocks
