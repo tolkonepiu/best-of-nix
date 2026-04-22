@@ -85,26 +85,6 @@ categories:
     subtitle: >
       Alternative distributions and variants based on Nix or NixOS
 
-labels:
-  - label: haskell
-    image: https://api.iconify.design/devicon:haskell.svg
-    description: For Haskell
-  - label: php
-    image: https://api.iconify.design/devicon:php.svg
-    description: For PHP
-  - label: python
-    image: https://api.iconify.design/devicon:python.svg
-    description: For Python
-  - label: ruby
-    image: https://api.iconify.design/devicon:ruby.svg
-    description: For Ruby
-  - label: rust
-    image: https://cdn.simpleicons.org/rust/CE422B
-    description: For Rust
-  - label: android
-    image: https://api.iconify.design/devicon:android.svg
-    description: For Android
-
 projects:
   - name: awesome-nix
     github_id: nix-community/awesome-nix
@@ -1383,8 +1363,6 @@ projects:
     description: >
       A declarative and reproducible build system for Android (AOSP) images.
     category: development
-    labels:
-      - android
   - name: services-flake
     github_id: juspay/services-flake
     description: >
@@ -1449,15 +1427,11 @@ projects:
     description: >
       Nix-packaged Android SDK.
     category: programming-languages
-    labels:
-      - android
   - name: Bundix
     github_id: nix-community/bundix
     description: >
       Generates a Nix expression for your Bundler-managed application.
     category: programming-languages
-    labels:
-      - ruby
   - name: cabal2nix
     github_id: NixOS/cabal2nix
     description: >
@@ -1468,8 +1442,6 @@ projects:
     description: >
       Granular builds of Rust projects for Nix.
     category: programming-languages
-    labels:
-      - rust
   - name: clj-nix
     github_id: jlesquembre/clj-nix
     description: >
@@ -1501,14 +1473,10 @@ projects:
       A Nix library for building Cargo projects with incremental artifact
       caching.
     category: programming-languages
-    labels:
-      - rust
   - name: crate2nix
     github_id: nix-community/crate2nix
     description: >
       rebuild only changed crates in CI with crate2nix and nix
-    labels:
-      - rust
     category: programming-languages
   - name: crystal2nix
     github_id: nix-community/crystal2nix
@@ -1525,8 +1493,6 @@ projects:
     description: >
       Easy Haskell Language Server tooling with Nix.
     category: programming-languages
-    labels:
-      - haskell
   - name: elm2nix
     github_id: cachix/elm2nix
     description: >
@@ -1537,15 +1503,11 @@ projects:
     description: >
       Rust toolchains and Rust analyzer nightly for nix.
     category: programming-languages
-    labels:
-      - rust
   - name: ghc.nix
     github_id: alpmestan/ghc.nix
     description: >
       Nix (shell) expression for working on GHC
     category: programming-languages
-    labels:
-      - haskell
   - name: gomod2nix
     github_id: nix-community/gomod2nix
     description: >
@@ -1561,22 +1523,16 @@ projects:
     description: >
       A `flake-parts` Nix module for Haskell development.
     category: programming-languages
-    labels:
-      - haskell
   - name: haskell-nix
     github_id: Gabriella439/haskell-nix
     description: >
       Nix and Haskell in production
     category: programming-languages
-    labels:
-      - haskell
   - name: haskell.nix
     github_id: input-output-hk/haskell.nix
     description: >
       Alternative Haskell Infrastructure for Nixpkgs.
     category: programming-languages
-    labels:
-      - haskell
   - name: haxix
     github_id: MadMcCrow/haxix
     description: >
@@ -1587,8 +1543,6 @@ projects:
     description: >
       A Haskell re-implementation of the Nix expression language
     category: programming-languages
-    labels:
-      - haskell
   - name: kebab
     github_id: bwkam/kebab
     description: >
@@ -1604,15 +1558,11 @@ projects:
     description: >
       Create highly reproducible python environments.
     category: programming-languages
-    labels:
-      - python
   - name: naersk
     github_id: nix-community/naersk
     description: >
       Build Rust packages directly from `Cargo.lock`.
     category: programming-languages
-    labels:
-      - rust
   - name: Napalm
     github_id: nix-community/napalm
     description: >
@@ -1633,8 +1583,6 @@ projects:
     description: >
       Library to easily and effortlessly integrate Cargo projects with Nix.
     category: programming-languages
-    labels:
-      - rust
   - name: nix-dart
     github_id: tadfisher/nix-dart
     description: >
@@ -1650,22 +1598,16 @@ projects:
     description: >
       Automatic Haskell setup in Emacs.
     category: programming-languages
-    labels:
-      - haskell
   - name: nix-phps
     github_id: fossar/nix-phps
     description: >
       Flake containing old and unmaintained PHP versions (intended for CI use).
     category: programming-languages
-    labels:
-      - php
   - name: nix-shell
     github_id: loophp/nix-shell
     description: >
       Nix shells for PHP development.
     category: programming-languages
-    labels:
-      - php
   - name: nixduino
     github_id: boredom101/nixduino
     description: >
@@ -1676,8 +1618,6 @@ projects:
     description: >
       A Haskell project template using Nix and direnv.
     category: programming-languages
-    labels:
-      - haskell
   - name: nixlisp
     github_id: utdemir/nixlisp
     description: >
@@ -1688,15 +1628,11 @@ projects:
     description: >
       All Python versions, kept up-to-date on hourly basis using Nix.
     category: programming-languages
-    labels:
-      - python
   - name: nocargo
     github_id: oxalica/nocargo
     description: >
       Build Rust crates with Nix Build System.
     category: programming-languages
-    labels:
-      - rust
   - name: node2nix
     github_id: svanderburg/node2nix
     description: >
@@ -1719,8 +1655,6 @@ projects:
     description: >
       Build Python packages directly from Poetry's `poetry.lock` files.
     category: programming-languages
-    labels:
-      - python
   - name: purs-nix
     github_id: purs-nix/purs-nix
     description: >
@@ -1731,36 +1665,26 @@ projects:
     description: >
       A collection of Nix utilities to work with Python projects.
     category: programming-languages
-    labels:
-      - python
   - name: python-nix
     github_id: tweag/python-nix
     description: >
       Python-Nix FFI library using the new C API
     category: programming-languages
-    labels:
-      - python
   - name: ruby-nix
     github_id: inscapist/ruby-nix
     description: >
       Generates reproducible ruby/bundler app environment with Nix.
     category: programming-languages
-    labels:
-      - ruby
   - name: rust-nix-templater
     github_id: yusdacra/rust-nix-templater
     description: >
       Generates Nix build and development files for Rust projects.
     category: programming-languages
-    labels:
-      - rust
   - name: rust-overlay
     github_id: oxalica/rust-overlay
     description: >
       Pure and reproducible nix overlay of binary distributed Rust toolchains.
     category: programming-languages
-    labels:
-      - rust
   - name: sbt-derivation
     github_id: zaninime/sbt-derivation
     description: >
@@ -1771,8 +1695,6 @@ projects:
     description: >
       Easily build most Haskell programs into fully static Linux executables.
     category: programming-languages
-    labels:
-      - haskell
   - name: tex2nix
     github_id: rgri/tex2nix
     description: >
@@ -1783,15 +1705,11 @@ projects:
     description: >
       Tvix - A Rust implementation of Nix.
     category: programming-languages
-    labels:
-      - rust
   - name: uv2nix
     github_id: pyproject-nix/uv2nix
     description: >
       Ingest uv workspaces using Nix
     category: programming-languages
-    labels:
-      - python
   - name: zon2nix
     github_id: nix-community/zon2nix
     description: >
@@ -2267,8 +2185,6 @@ projects:
     github_id: nix-community/nix-on-droid
     description: >
       Nix-enabled environment for your Android device.
-    labels:
-      - android
     category: distributions
   - name: nixbsd
     github_id: nixos-bsd/nixbsd
@@ -2286,8 +2202,6 @@ projects:
     description: >
       NixOS for Android Terminal (Android Virtualization Framework).
     category: distributions
-    labels:
-      - android
   - name: nixos-riscv
     github_id: NickCao/nixos-riscv
     description: >
