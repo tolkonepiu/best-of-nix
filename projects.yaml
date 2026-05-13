@@ -1782,6 +1782,12 @@ projects:
     description: >
       Manage macOS configuration just like on NixOS.
     category: nixos-modules
+  - name: nix-homebrew
+    github_id: zhaofengli/nix-homebrew
+    description: >
+      Manages Homebrew installations on macOS using nix-darwin, with pinned
+      versions and declarative tap management.
+    category: nixos-modules
   - name: nix-minecraft
     github_id: Infinidoge/nix-minecraft
     description: >
@@ -1964,6 +1970,12 @@ projects:
     github_id: ngi-nix/ngipkgs
     description: >
       Nix packages and services for projects supported through the NGI program.
+    category: overlays
+  - name: nix-casks
+    github_id: atahanyorganci/nix-casks
+    description: >
+      Transforms Homebrew casks into Nix derivations, enabling installation of
+      macOS GUI applications without Homebrew.
     category: overlays
   - name: nixcasks
     github_id: jcszymansk/nixcasks
