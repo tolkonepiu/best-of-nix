@@ -1871,6 +1871,11 @@ projects:
     description: >
       Nix DSL for nftables
     category: nixos-modules
+  - name: Preservation
+    github_id: nix-community/preservation
+    description: >
+      Declarative management of non-volatile system state for NixOS.
+    category: nixos-modules
   - name: Self Host Blocks
     github_id: ibizaman/selfhostblocks
     description: >
