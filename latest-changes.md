@@ -2,19 +2,19 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/kamadorueda/alejandra">alejandra</a></b> (🥇24 ·  ⭐ 1.4K · 📈) - An opinionated Nix code formatter optimized for speed and consistency. <code><a href="http://bit.ly/3rvuUlR">Unlicense</a></code>
-- <b><a href="https://github.com/numtide/treefmt">treefmt</a></b> (🥇24 ·  ⭐ 1.1K · 📈) - One CLI to format the code tree, using formatters such as alejandra, prettier, etc. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/ryan4yin/nixos-and-flakes-book">NixOS & Flakes Book</a></b> (🥇21 ·  ⭐ 3.3K · 📈) - An unofficial and opinionated NixOS & Flakes book for beginners. <code><a href="http://bit.ly/3mSooSG">CC-BY-SA-4.0</a></code>
-- <b><a href="https://github.com/tazjin/nixery">Nixery</a></b> (🥈17 ·  ⭐ 2K · 📈) - A Docker-compatible container registry which builds images ad-hoc via Nix. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/numtide/devshell">devshell</a></b> (🥈17 ·  ⭐ 1.6K · 📈) - `mkShell` with extra bits and a toml config option to be able to onboard non-nix users. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/NixOS/nix.dev">nix.dev</a></b> (🥇22 ·  ⭐ 4K · 📈) - Official documentation for getting things done with Nix. <code><a href="http://bit.ly/3mSooSG">CC-BY-SA-4.0</a></code>
+- <b><a href="https://github.com/serokell/deploy-rs">deploy-rs</a></b> (🥇22 ·  ⭐ 2.4K · 📈) - A simple multi-profile Nix-flake deploy tool. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/nlewo/comin">comin</a></b> (🥇20 ·  ⭐ 1.1K · 📈) - A deployment tool to continuously pull from Git repositories. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/chaotic-cx/nyx">chaotic-nyx</a></b> (🥇19 ·  ⭐ 790 · 📈) - Daily bumped bleeding edge packages like `mesa_git` & others that arent yet in Nixpkgs. Created by the makers of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/cachix/nixpkgs-python">nixpkgs-python</a></b> (🥈13 ·  ⭐ 230 · 📈) - All Python versions, kept up-to-date on hourly basis using Nix. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 
 ## 📉 Trending Down
 
 _Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
 
-- <b><a href="https://github.com/DeterminateSystems/magic-nix-cache-action">magic-nix-cache-action</a></b> (🥉20 ·  ⭐ 570 · 📉) - Save 30-50%+ of CI time without any effort or cost. Use Magic Nix Cache, a totally free and zero-configuration binary.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/Mic92/nix-update">nix-update</a></b> (🥇19 ·  ⭐ 890 · 📉) - Update versions/source hashes of nix packages. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/nix-community/awesome-nix">awesome-nix</a></b> (🥈16 ·  ⭐ 5.5K · 📉) - A curated list of the best resources in the Nix community. <code><a href="https://tldrlegal.com/search?q=CC0-1.0">❗️CC0-1.0</a></code>
-- <b><a href="https://github.com/numtide/flake-utils">flake-utils</a></b> (🥈15 ·  ⭐ 1.6K · 📉) - Pure Nix flake utility functions to help with writing flakes. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/DeterminateSystems/zero-to-nix">Zero to Nix</a></b> (🥈15 ·  ⭐ 1.3K · 📉) - A beginners guide to Nix, providing step-by-step tutorials and explanations. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/nix-community/nix-init">nix-init</a></b> (🥈19 ·  ⭐ 1.5K · 📉) - Generate Nix packages from URLs with hash prefetching, dependency inference, license detection, and more. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code>
+- <b><a href="https://github.com/lix-project/lix">lix</a></b> (🥈18 ·  ⭐ 650 · 📉) - A modern, delicious implementation of the Nix package manager, focused on correctness, usability, and growth. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code>
+- <b><a href="https://github.com/nix-community/vscode-nix-ide">vscode-nix-ide</a></b> (🥈17 ·  ⭐ 520 · 📉) - Nix language support for Visual Studio Code. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/oxalica/nil">nil</a></b> (🥈16 ·  ⭐ 1.9K · 📉) - NIx Language server, an incremental analysis assistent for writing in Nix. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/arnarg/nixidy">nixidy</a></b> (🥇16 ·  ⭐ 400 · 📉) - Kubernetes GitOps with Nix and Argo CD. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 
